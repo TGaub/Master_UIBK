@@ -1,0 +1,1601 @@
+TY  - JOUR
+T1  - Artificial intelligence-enabled defect detection method and engineering application of ceramic mug
+AU  - Mao, Wenjie
+AU  - Wu, Hu
+AU  - Xie, Shilong
+AU  - Li, Linyuxuan
+AU  - Yang, Xianhai
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 159
+SP  - 111648
+PY  - 2025
+DA  - 2025/11/01/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2025.111648
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197625016501
+KW  - Artificial intelligence
+KW  - Deep learning
+KW  - Defect detection
+KW  - Small target defects
+KW  - Automation
+AB  - In the manufacturing process of ceramic mugs, the detection of micro-surface defects faces technical challenges of high difficulty and low efficiency, and efficient and high-quality production lines are crucial to maintaining market competitiveness. The goal of this study is to improve the accuracy and efficiency of detection by developing a defect detection algorithm and equipment based on deep learning, thereby improving product quality and reducing production costs. The research uses the visual algorithm You Only Look Once version 8 (YOLOv8) in the field of artificial intelligence as the baseline model. Firstly, a slice pre-training layer is designed to reduce the memory loss of large images to the graphics card. Secondly, the model structure is reconstructed to adapt to small target detection. In addition, a mixed local channel cross-stage feature fusion module is proposed to enhance the recognition ability of small targets. Finally, a detection head with shared parameters is designed to further reduce the number of parameters. In terms of engineering application, a set of test equipment was developed and the corresponding software was written. Experiments show that the accuracy of the algorithm is 21.3 % higher than that of YOLOv8, and the parameter amount is reduced by 67 %. Compared with manual detection, the equipment efficiency is increased by 47.06 %, and the detection success rate is 99.6 %. Therefore, the research in this paper provides an efficient and reliable solution for industrial automation detection.
+ER  - 
+
+TY  - JOUR
+T1  - Towards region-based robotic machining system from perspective of intelligent manufacturing: A technology framework with case study
+AU  - Wang, Shengzhe
+AU  - Xu, Ziyan
+AU  - Wu, Chaoqun
+AU  - Hua, Lin
+AU  - Zhu, Dahu
+JO  - Journal of Manufacturing Systems
+VL  - 70
+SP  - 451
+EP  - 463
+PY  - 2023
+DA  - 2023/10/01/
+SN  - 0278-6125
+DO  - https://doi.org/10.1016/j.jmsy.2023.08.017
+UR  - https://www.sciencedirect.com/science/article/pii/S0278612523001681
+KW  - Region-based robotic machining
+KW  - Automotive body welding slags
+KW  - Defect detection
+KW  - Binocular positioning
+KW  - Path decision-making
+AB  - The region-based robotic machining system is mainly used for repair and remanufacturing of the complex components with local defects. Taking the automotive body manufacturing as an example, the resistance spot welding process is highly prone to randomly distributed and tiny-sized welding slag splashes, which poses a great challenge to the locally automated removal of the welding slag defects. In this paper, we construct a region-based robotic machining system that integrates the processes of defect detection, defect region division and positioning, and machining path decision-making, aiming to enhance the automation of locally grinding of automotive body welding slags. Both the framework of the system and the implementation process are proposed. In the framework, the improved YOLO v3 algorithm is put forward to accurately detect the automotive body welding slags by virtue of the machine vision and deep learning. Based on this, the K-means algorithm is used to divide the welding slags into the regions, so that the problem of positioning individual welding slag is transformed into the problem of positioning the boundary points of welding slag region. The binocular image-based region boundary points matching is then presented to accurately locate the welding slag regions accordingly. The Dijkstra algorithm is finally employed to make an autonomous decision on the pre-planned grinding path of automotive body welding slags based on the positioning results. The experiments on a case of locally robotic grinding of the welding slags on an automotive door frame are implemented to verify the effectiveness and practicality of the system. This study provides a valuable reference for the locally automated repair of automotive body welding slag defects, putty defects, paint defects, etc.
+ER  - 
+
+TY  - JOUR
+T1  - Semi-supervised adaptive network for commutator defect detection with limited labels
+AU  - Wang, Zhenrong
+AU  - Li, Weifeng
+AU  - Wang, Miao
+AU  - Liu, Baohui
+AU  - Niu, Tongzhi
+AU  - Li, Bin
+JO  - Journal of Manufacturing Systems
+VL  - 77
+SP  - 639
+EP  - 651
+PY  - 2024
+DA  - 2024/12/01/
+SN  - 0278-6125
+DO  - https://doi.org/10.1016/j.jmsy.2024.09.016
+UR  - https://www.sciencedirect.com/science/article/pii/S0278612524002188
+KW  - Defect detection
+KW  - Neural architecture search
+KW  - Semi-supervised learning
+KW  - Consistency regularization
+KW  - Pseudo-labels
+KW  - Contrastive learning
+AB  - Deep learning-based surface defect detection methods have obtained good performance. However, customizing architectures for specific tasks is a complex and laborious process. Neural architecture search (NAS) offers a promising data-driven adaptive design approach. Yet, deploying NAS in industrial applications presents challenges due to its reliance on supervised learning paradigm. Hence, we propose a mixed semi-supervised adaptive network for commutator surface defect detection, even with limited labeled samples. In the proposed framework, we employ a multi-branch network with complementary perturbation flows, leveraging consistency regularization, pseudo-labeling, and contrastive learning. First, a confidence-guided directional consistency regularization strategy aligns features in high-quality directions. Second, confidence-aware hybrid pseudo-labeling improves the pseudo-supervision quality. Finally, foreground/background contrast awareness encourages the model to more sensitively identify defect regions. The detection backbone is data-driven generated through a neural architecture search process, replacing manual design strategies. Experimental results show our method automatically generates optimal commutator detection networks using limited labels, outperforming existing state-of-the-art methods. Our work paves the way for adaptive defect detection networks with limited labels and can extend to surface defect detection in various production lines.
+ER  - 
+
+TY  - JOUR
+T1  - A Unet-inspired spatial-attention transformer model for segmenting gear tooth surface defects
+AU  - Zhou, Xin
+AU  - Zhang, Yongchao
+AU  - Ren, Zhaohui
+AU  - Mi, Tianchuan
+AU  - Jiang, Zeyu
+AU  - Yu, Tianzhuang
+AU  - Zhou, Shihua
+JO  - Advanced Engineering Informatics
+VL  - 62
+SP  - 102933
+PY  - 2024
+DA  - 2024/10/01/
+SN  - 1474-0346
+DO  - https://doi.org/10.1016/j.aei.2024.102933
+UR  - https://www.sciencedirect.com/science/article/pii/S1474034624005846
+KW  - Gear surface wear
+KW  - Tooth surface defect detection
+KW  - Unet
+KW  - Shunted windows
+AB  - Automated vision defect detection is a crucial step in monitoring product quality in industrial production. Despite the widespread utilization of deep learning methods for surface defect identification, several challenges persist in the context of gear applications. Firstly, there is a lack of dedicated defect detection methods specifically tailored for gear tooth surfaces. As surface defects vary in size, the regular single-scale attention computation at each transformer layer tends to compromise spatial information. To address these challenges, we first propose a novel U-shaped spatial-attention transformer model for tooth surface detection. A shunted-window method is introduced to create a pyramid receptive field within a single self-attention layer. This method captures fine-grained features with a small window while preserving coarse-grained features with a larger window. Consequently, this technique enables effective multi-scale information fusion, accommodating objects of different sizes. We curate a dataset of defective samples collected under various working conditions using the CL-100 gear wear machine. Experimental results demonstrate that the proposed model outperforms the state-of-the-art (SOTA) U-shaped SwinUnet by +8.74% AP and +4.40% Sm, while surpassing the excellent defect detection method of ResT-UperNet by +0.63% AP and +4.69% Sm.
+ER  - 
+
+TY  - JOUR
+T1  - Machine vision-based detection of surface defects in cylindrical battery cases
+AU  - Xie, Yuxi
+AU  - Xu, Xiang
+AU  - Liu, ShiYan
+JO  - Journal of Energy Storage
+VL  - 101
+SP  - 113949
+PY  - 2024
+DA  - 2024/11/10/
+SN  - 2352-152X
+DO  - https://doi.org/10.1016/j.est.2024.113949
+UR  - https://www.sciencedirect.com/science/article/pii/S2352152X24035357
+KW  - Cylindrical battery case
+KW  - Defect detection
+KW  - Machine vision
+KW  - Attention mechanism
+KW  - Deep learning
+AB  - Automotive 21700 series lithium batteries are prone to surface defects during production and transportation, thus affecting their performance, so we propose a full-surface defect detection method for battery cases based on the synthesis of traditional image processing and deep learning to address this problem. First, the mechanism of surface defects on a battery case is analysed, and the types of surface defects are summarized. A suitable platform for image acquisition is designed for the severely reflective surface. Since there is no publicly available defect dataset for cylindrical battery cases, a defect dataset is established, and the dataset is augmented and expanded via the traditional method and the ACGAN model. For the defects on the top of the battery case, a traditional image processing algorithm is used to combine the roundness and the area of the area pixels to make a comprehensive judgement. For the defects on the bottom and side of the battery case, after comparing and analysing a variety of deep learning networks, the YOLOv7 model is selected to address the data characteristics of the large experimental inputs and the small targeted defects. To improve the accuracy of the model to meet the needs of real-time detection in industry, the CA attention mechanism, the DYHEAD dynamic detector head, and the slicing-assisted super inference (SAHI) method are used, with a final map accuracy reaching 98.1 %, which is 2.7 % higher than that of the initial model. Compared with mainstream target detection algorithms, the algorithm in this paper has good detection performance for cylindrical battery case defect detection and can be better applied to real-time detection in industry.
+ER  - 
+
+TY  - JOUR
+T1  - Zoom in on the target network for the prediction of defective images and welding defects' location
+AU  - Wang, Xiaopeng
+AU  - Zhang, Baoxin
+AU  - Yu, Xinghua
+JO  - NDT & E International
+VL  - 143
+SP  - 103059
+PY  - 2024
+DA  - 2024/04/01/
+SN  - 0963-8695
+DO  - https://doi.org/10.1016/j.ndteint.2024.103059
+UR  - https://www.sciencedirect.com/science/article/pii/S0963869524000240
+KW  - Deep learning
+KW  - X-ray testing
+KW  - Welding defects
+AB  - Automatic welding defects detection is crucial in intelligent welding manufacturing. However, the small size of defects hampers the advancement of automatic welding defects detection. This study proposes a Zoom in on the Target (ZIOT) network, which systematically performs tasks such as welded joint segmentation, defective image detection, and prediction of welding defect locations. The proposed model achieves 100 % recall and precision for segmenting the welded-joint region, surpassing the performance of the Otsu-based methods. The five-fold cross-validation experiments indicate the proposed model can distinguish defective and non-defective X-ray images with an accuracy of 98.4 %. The segmentation of welded joints contributes to a 10 % improvement in the average precision of predicting the location of welding defects. Moreover, the ZIOT network demonstrates superior performance when compared to classical models, including Faster R-CNN, YOLO, and Swin Transformer. The ZIOT network exhibits significant potential for application in detecting welding defects within X-ray images acquired through the DWDI technique.
+ER  - 
+
+TY  - JOUR
+T1  - A domain adaptation YOLOv5 model for industrial defect inspection
+AU  - Li, Chen
+AU  - Yan, Haoxin
+AU  - Qian, Xiang
+AU  - Zhu, Shidong
+AU  - Zhu, Peiyuang
+AU  - Liao, Chengwei
+AU  - Tian, Haoyang
+AU  - Li, Xiu
+AU  - Wang, Xiaohao
+AU  - Li, Xinghui
+JO  - Measurement
+VL  - 213
+SP  - 112725
+PY  - 2023
+DA  - 2023/05/31/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2023.112725
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224123002890
+KW  - Industrial inspection
+KW  - Deep learning
+KW  - Transfer learning
+KW  - Surface defect
+KW  - Magnetic tiles
+AB  - In the process of industrial production, manufactured products are prone to surface defects for a variety of reasons. To overcome the problem of high time cost and the strong demand for large sample data sets, a detector based on transfer learning is commonly utilized. In this paper, a domain adaptation YOLOv5 model, named DAYOLOv5, is proposed for automatic surface defect inspection. The hyperparameter α in DAYOLOv5 for knowledge transfer can be designed specially to achieve better generalization in real-world industrial applications. Meanwhile, in the field of magnetic tile surface defect detection, our DAYOLOv5 outperforms traditional mixed training and pretrain-finetune methods with limited data sets and has great robustness. Overall, the experimental results demonstrate that our DAYOLOv5 model can indeed boost performance on small-scale target data sets and is applicable to practical industrial scenarios.
+ER  - 
+
+TY  - JOUR
+T1  - Crack-JPU – A crack segmentation method using atrous convolution
+AU  - Nikhade, G.R.
+AU  - Khandelwal, P.
+AU  - Sonsare, Pravinkumar
+AU  - Yadlapati, Kishore
+AU  - Duvvuri, SSSR Sarathbabu
+JO  - Measurement: Sensors
+VL  - 32
+SP  - 101080
+PY  - 2024
+DA  - 2024/04/01/
+SN  - 2665-9174
+DO  - https://doi.org/10.1016/j.measen.2024.101080
+UR  - https://www.sciencedirect.com/science/article/pii/S2665917424000564
+KW  - Deep learning
+KW  - Joint pyramid upsampling
+KW  - CrackJPU
+KW  - Semantic segmentation
+AB  - Detecting cracks from images using embedded deep learning applications requires efficient and lightweight models in practice. To improve the computational efficiency of models, it is generally aim to reduce the model parameters as much as possible without compromising accuracy. Computational approaches ensure consistency in crack detection across different inspections and operators. Computational methods enable continuous monitoring, including real-time or periodic inspections. The proposed work seeks to leverage the latest deep-learning techniques to get the maximum information out of a minimum number of parameters. The present semantic segmentation-based model - CrackJPU, uses deep hierarchical feature learning convolution networks. Deeply-Supervised Nets (DSN) and JPU (Joint Pyramid Upsampling) modules are also used to supervise the model at multiple inner side-output layers and facilitate retrieval of lower resolution features at decoding layers respectively. To refine the prediction result, the guided filtering method is used. The proposed model has been trained on a standard dataset of annotated crack images. The experimental finding shows that, the model has less than 7 million parameters which are the least compared to recent work without losing performance. Also a mean I/U score of 98.78 and the best F-score is 86.4 is achieved with reduction model parameters. Crack detection is significant in various fields like infrastructure inspection, aerospace industry, Manufacturing Quality Control etc. due to its potential impact on safety, infrastructure integrity, and overall system reliability.
+ER  - 
+
+TY  - JOUR
+T1  - Laser welding defects detection in lithium-ion battery poles
+AU  - Din, Nasir Ud
+AU  - Zhang, Li
+AU  - Zhou, Yunhao
+AU  - Chen, Ziliang
+AU  - Yao, Yuhui
+AU  - Yang, Zihan
+AU  - Yang, Yatao
+JO  - Engineering Science and Technology, an International Journal
+VL  - 46
+SP  - 101495
+PY  - 2023
+DA  - 2023/10/01/
+SN  - 2215-0986
+DO  - https://doi.org/10.1016/j.jestch.2023.101495
+UR  - https://www.sciencedirect.com/science/article/pii/S2215098623001738
+KW  - Laser welding
+KW  - Data sampling
+KW  - Complement objective training
+KW  - Multi-classification
+AB  - Strong demand for electric vehicles and energy storage applications has led to a rapid expansion of the battery sector. Laser welding is widely used in lithium-ion batteries and manufacturing companies due to its high energy density and capability to join different materials. Welding quality plays a vital role in the durability and effectiveness of welding structures. Therefore, it is essential to monitor welding defects to ensure welds quality. Manual inspection, analysis and evaluation of welding defect images is difficult due to the non-uniformity in their shape, position, and size. Hence the use of deep learning techniques to identify welding defects is more accurate and reliable due to the adequate training data samples, which helps to identify welding defects with greater accuracy. In this study, we present a novel collection of 3,736 laser welding images which are labeled with eight classes. This dataset contains both normal and defective classes collected from a Dade Laser Chinese production line. Moreover, we introduce a modified loss function that integrates cross entropy and complement objective training. The EfficientNetB6 model is trained with the newly introduced loss function that performed efficiently and achieved a promising accuracy during the classification phase. The experimental results demonstrate the significance of the proposed loss function and the sufficiency of EfficientNetB6 model on the laser welding dataset. Compared to other models, EfficientNetB6 performs better.
+ER  - 
+
+TY  - JOUR
+T1  - ELA-YOLO: An efficient method with linear attention for steel surface defect detection during manufacturing
+AU  - Ma, Ruichen
+AU  - Chen, Jinglong
+AU  - Feng, Yong
+AU  - Zhou, Zitong
+AU  - Xie, Jingsong
+JO  - Advanced Engineering Informatics
+VL  - 65
+SP  - 103377
+PY  - 2025
+DA  - 2025/05/01/
+SN  - 1474-0346
+DO  - https://doi.org/10.1016/j.aei.2025.103377
+UR  - https://www.sciencedirect.com/science/article/pii/S1474034625002708
+KW  - Surface defect detection
+KW  - Deep learning
+KW  - YOLOv8
+KW  - Linear attention
+KW  - Industrial application
+AB  - Research on deep learning methods for steel surface defect detection significantly enhances product quality and manufacturing efficiency. However, practical industrial scenarios pose challenges, including variations in color, lighting, reflective conditions, and other environmental factors that affect defect visibility. Additionally, defects vary in size and shape, with some being so small or concealed that accurate detection is difficult. Complex textures of detected images further increase computational cost, often compromising efficiency for high precision. In this paper, we propose a novel method called ELA-YOLO for defect detection, using YOLOv8 as the underlying framework. First, we introduce linear attention to the network to improve the model’s representation capability while managing computational complexity. Second, we propose a selective feature pyramid network to enhance feature fusion across different levels. Third, we design a lightweight detection head to output detection results efficiently. Experimental results demonstrate that ELA-YOLO achieves the highest accuracy: 81.7 mAP on the NEU-DET dataset, 99.3 mAP on the DAGM2007 dataset and 74.3 mAP on the GC10-DET dataset. Additionally, it achieves the lowest parameters (5.4 M), computational complexity (16.5 GFLOPs), and relatively low latency (101.3 FPS). Our method strikes an optimal balance between efficiency and accuracy, demonstrating comprehensive performance in industrial steel surface defect detection.
+ER  - 
+
+TY  - JOUR
+T1  - Weak surface defect detection for production-line plastic bottles with multi-view imaging system and LFF YOLO
+AU  - Wu, Heng
+AU  - Zeng, Lingxiang
+AU  - Chen, Meiyun
+AU  - Wang, Tao
+AU  - He, Chunhua
+AU  - Xiao, Huapan
+AU  - Luo, Shaojuan
+JO  - Optics and Lasers in Engineering
+VL  - 181
+SP  - 108369
+PY  - 2024
+DA  - 2024/10/01/
+SN  - 0143-8166
+DO  - https://doi.org/10.1016/j.optlaseng.2024.108369
+UR  - https://www.sciencedirect.com/science/article/pii/S0143816624003476
+KW  - Defect detection
+KW  - Optical imaging
+KW  - Deep learning
+KW  - Pattern recognition
+AB  - The automatic optical detection (AOD) technique has been extensively applied in industrial manufacturing fields. However, in the manufacturing field of plastic bottles (PBs), the current AOD approaches often encounter the issues of 360-degree image acquisition, detection accuracy, and detection speed limitation due to the restriction of the imaging system, detection algorithm, and computational power. To address these issues, we propose a surface defect detection (SDD) method to identify weak and small defects in the production-line PBs. We design a multi-view imaging system containing four imaging units and four relative illumination devices to acquire the surface images of production-line PBs with a 360-degree angle of view. We develop a lightweight feature fusion (LFF) YOLO network to detect weak and small defects in the PB images. An experimental system is built to validate the proposed method. The practical experiment results illustrate that the proposed method realizes the detection of weak and small defects for the PBs with high accuracy and speed and performs better than the comparison state-of-the-art methods. The proposed method has wide applications in the three-dimensional object SDD, such as glass bottles, automobile parts, and so on.
+ER  - 
+
+TY  - JOUR
+T1  - Defect detection and classification on semiconductor wafers using two-stage geometric transformation-based data augmentation and SqueezeNet lightweight convolutional neural network
+AU  - López de la Rosa, Francisco
+AU  - Gómez-Sirvent, José L.
+AU  - Morales, Rafael
+AU  - Sánchez-Reolid, Roberto
+AU  - Fernández-Caballero, Antonio
+JO  - Computers & Industrial Engineering
+VL  - 183
+SP  - 109549
+PY  - 2023
+DA  - 2023/09/01/
+SN  - 0360-8352
+DO  - https://doi.org/10.1016/j.cie.2023.109549
+UR  - https://www.sciencedirect.com/science/article/pii/S0360835223005739
+KW  - Deep learning
+KW  - Convolutional neural networks
+KW  - Semiconductor manufacturing
+KW  - Inspection system
+KW  - Defect classification
+AB  - The manufacturing industry is evolving in line with the principles of Industry 4.0, with the aim of achieving higher levels of automation and digitization. In particular, deep learning algorithms such as convolutional neural networks (CNNs) are key enabling technologies to achieve this goal. The semiconductor industry is a particular case where CNNs are used to assist inspection systems and human operators in defect classification of wafers. However, deep CNN models are time consuming and resource intensive. It is therefore necessary to look for alternatives. One of these alternatives is the use of lightweight models, which provide competitive classification performance with low time and resource consumption. Therefore, the motivation of this work is to apply these lightweight models to semiconductor defect classification and compare their performance with that obtained by deep CNN models in similar work. In this line, this paper introduces an efficient two-step approach combining traditional computer vision techniques and a lightweight SqueezeNet CNN for defect detection and classification. The lightweight SqueezeNet model is tuned using a grid search algorithm. After obtaining the optimal model, its metrics are presented and compared with results from related work. Using a semiconductor surface defect dataset from a multinational semiconductor company, our lightweight model can achieve really competitive classification results (99.356% versus 99.443% obtained by ResNet50) while consuming significantly less time than other heavyweight models (80.146% less time than ResNet50).
+ER  - 
+
+TY  - JOUR
+T1  - Application of an AI image analysis and classification approach to characterise dissolution and precipitation events in the flow through apparatus
+AU  - Taseva, Alexandra R.
+AU  - Persoons, Tim
+AU  - D'Arcy, Deirdre M.
+JO  - European Journal of Pharmaceutics and Biopharmaceutics
+VL  - 189
+SP  - 36
+EP  - 47
+PY  - 2023
+DA  - 2023/08/01/
+SN  - 0939-6411
+DO  - https://doi.org/10.1016/j.ejpb.2023.04.020
+UR  - https://www.sciencedirect.com/science/article/pii/S093964112300108X
+KW  - Dissolution
+KW  - Flow-through apparatus
+KW  - Artificial Intelligence (AI)
+KW  - Machine Learning (ML)
+KW  - Image analysis
+KW  - Image classification
+KW  - Precipitation
+AB  - Imaging and artificial intelligence (AI) approaches have been used with increasing frequency in pharmaceutical industry in recent years. Characterisation of processes such as drug dissolution and precipitation is vital in quality control testing and drug manufacture. To support existing techniques like in vitro dissolution testing, novel process analytical technologies (PATs) can give an insight into these processes. The aim of this study was to create and explore the potential of an automated image classification model based on image analysis to identify events (dissolution and precipitation) occurring in the flow-through apparatus (FTA) test cell, and the ability to characterise a dissolution process over time. Several precipitation conditions were tested in a USP 4 FTA test cell with images recorded during early (plume formation) and late (particulate re-formation) stages of precipitation. An available MATLAB code was used as a base to develop and validate an anomaly classification model able to detect different events occurring during the precipitation process in the dissolution cell. Two variants of the model were tested on images from a dissolution test in the FTA, with a view to application of the image analysis system to quantitative characterization of the dissolution process over time. It was found that the classification model is highly accurate (>90%) in detecting events occurring in the FTA test cell. The model showed potential to be used to characterise the stages of dissolution and precipitation processes, and as a proof of concept demonstrates potential for deep machine learning image analysis to be applied to kinetics of other pharmaceutical processes.
+ER  - 
+
+TY  - JOUR
+T1  - Multi-class classification of paint/coating defects using transfer learning
+AU  - Dhrangdhariya, Priyankkumar
+AU  - Saini, Parvesh
+AU  - Maiti, Soumyadipta
+AU  - Rai, Beena
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 156
+SP  - 111320
+PY  - 2025
+DA  - 2025/09/15/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2025.111320
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197625013223
+KW  - Paint defects classification
+KW  - Vision transformer (ViT)
+KW  - Transfer learning
+KW  - Convolutional neural networks (CNNs)
+KW  - Artificial intelligence (AI)-Driven quality control
+KW  - Advanced data augmentations
+AB  - Paints and Coatings are integral to various industries, offering not only aesthetic enhancements but also protection against environmental factors like ultraviolet radiation, corrosion, and wear. However, defects compromising coating quality are common, and manual inspection methods are often inefficient, error-prone, and labour-intensive. In this study, we address these challenges by leveraging vision-based deep learning techniques for automated classification of 10 most common classes of industrial paints and coating defects. Although our dataset was limited to just 100 images (10 per class) for few-shot and 332 images (30–35 per class) for moderate-shot scenario, Vision Transformer (ViT) model achieved an impressive average accuracy of 86 % and 93 % respectively, outperforming Visual Geometry Group Network (VGG) (82 %), Densely Connected Convolutional Network (DenseNet) (91 %), and Efficient Network (EfficientNet) (79 %) in the moderate shot classification. These models’ robustness was further evaluated using a challenging non-trivial augmented test dataset designed to mimic real-world scenario. These test images were generated by mapping them onto curved surfaces, introducing distortions, and capturing from angled perspective. Remarkably, these models demonstrated robust performance with a maximum accuracy drop of only 7 %. To enhance adaptability to novel and unseen defects, Meta-Learning was also employed, improving the generalization capability of the models across both familiar and previously unseen defect types. This study offers valuable guidance for researchers working on vision-based image classification applications and provides significant insights into the potential of Artificial Intelligence (AI) driven quality control systems for the paint/coating industry, as well as in manufacturing, automotive, aerospace and civil infrastructure maintenance.
+ER  - 
+
+TY  - JOUR
+T1  - Real-time detection of surface cracking defects for large-sized stamped parts
+AU  - Dong, Xingjun
+AU  - Zhang, Changsheng
+AU  - Wang, Junhao
+AU  - Chen, Yao
+AU  - Wang, Dawei
+JO  - Computers in Industry
+VL  - 159-160
+SP  - 104105
+PY  - 2024
+DA  - 2024/08/01/
+SN  - 0166-3615
+DO  - https://doi.org/10.1016/j.compind.2024.104105
+UR  - https://www.sciencedirect.com/science/article/pii/S0166361524000332
+KW  - Automobile manufacturing
+KW  - Surface defect detection
+KW  - Deep learning
+KW  - Convolutional neural network
+KW  - Anomaly detection
+AB  - This study presents a framework for the real-time detection of surface cracking in large-sized stamped metal parts. The framework aims to address the challenges of low detection efficiency and high error rates associated with manual cracking detection. Within this framework, a novel network, SNF-YOLOv8, is proposed to efficiently detect cracking while ensuring that the detection speed matches the production speed. The network incorporates a convolutional spatial-to-depth module to enhance the detection of small-sized cracking and mitigate surface interference during inspections. Furthermore, a visual self-attention mechanism is introduced to improve feature extraction. A combination of standard convolutional and depth-wise separable convolutional layers in the neck network enhances speed without compromising accuracy. Experimental validation conducted using a dataset from actual production lines, in collaboration with a multi-national corporation, demonstrates that SNF-YOLOv8 achieves an average precision of 85.2% at a detection speed of 164 frames per second. The framework achieves an accuracy rate of 98.8% in detecting large-sized cracking and 96.4% in detecting small-sized cracking, meeting the requirements for high-precision and real-time detection applications.
+ER  - 
+
+TY  - JOUR
+T1  - Enhanced defect detection on steel surfaces using integrated residual refinement module with synthetic data augmentation
+AU  - Guclu, Emre
+AU  - Aydin, ilhan
+AU  - Akin, Erhan
+JO  - Measurement
+VL  - 250
+SP  - 117136
+PY  - 2025
+DA  - 2025/06/15/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2025.117136
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224125004956
+KW  - Artificial Intelligence
+KW  - Industrial Applications
+KW  - Synthetic Data Generation
+KW  - Industrial Quality Control
+KW  - Steel Surface Defects
+AB  - Ensuring high-quality production in the steel manufacturing industry is crucial for efficiency, waste reduction, and cost minimization. Traditional manual inspection methods are often inconsistent, time-consuming, and prone to human error, making automated visual inspection essential for reliable quality control. Steel surface defect detection plays a critical role in identifying issues such as cracks, scratches, and corrosion, which can compromise product durability and performance. This study proposes a new deep learning-based defect segmentation model to enhance the accuracy and efficiency of steel defect detection. The model incorporates ResNet50, Residual Block (RB), Residual Squeeze-and-Excitation Block (RSB), and Residual Refinement Module (RRM) to improve deep feature extraction and segmentation precision. Extensive evaluations demonstrate that the proposed model achieves an impressive 87.8% mean Intersection over Union (mIoU), outperforming existing segmentation models. A custom dataset was created using a real production line image acquisition system, ensuring diverse defect representation. Additionally, Synthetic Defect Generation (SDG) techniques were applied to enhance the dataset and improve model robustness. The proposed model offers a scalable and automated defect detection solution, significantly improving quality control, reducing inspection time, and ensuring higher reliability in industrial applications.
+ER  - 
+
+TY  - JOUR
+T1  - Integrating large language models with explainable fuzzy inference systems for trusty steel defect detection
+AU  - Zhang, Kening
+AU  - Tsang, Yung Po
+AU  - Lee, Carman K.M.
+AU  - Wu, C.H.
+JO  - Pattern Recognition Letters
+VL  - 192
+SP  - 29
+EP  - 35
+PY  - 2025
+DA  - 2025/06/01/
+SN  - 0167-8655
+DO  - https://doi.org/10.1016/j.patrec.2025.03.017
+UR  - https://www.sciencedirect.com/science/article/pii/S0167865525001096
+KW  - Fuzzy interfence system (FIS)
+KW  - Steel defect detection
+KW  - Explainable artificial intelligence (XAI)
+KW  - Black-box model
+AB  - In industrial applications, the complexity of machine learning models often makes their decision-making processes difficult to interpret and lack transparency, particularly in the steel manufacturing sector. Understanding these processes is crucial for ensuring quality control, regulatory compliance, and gaining the trust of stakeholders. To address this issue, this paper proposes LE-FIS, a large language models (LLMs)-based Explainable Fuzzy Inference System to interpret black-box models for steel defect detection. The method introduces a locally trained, globally predicted deep detection approach (LTGP), which segments the image into small parts for local training and then tests on the entire image for steel defect detection. Then, LE-FIS is designed to explain the LTGP by automatically generating rules and membership functions, with a genetic algorithm (GA) used to optimize parameters. Furthermore, state-of-the-art LLMs are employed to interpret the results of LE-FIS, and evaluation metrics are established for comparison and analysis. Experimental results demonstrate that LTGP performs well in defect detection tasks, and LE-FIS supported by LLMs provides a trustworthy and interpretable model for steel defect detection, which enhances transparency and reliability in industrial environments.
+ER  - 
+
+TY  - JOUR
+T1  - Enhancing manufacturing process accuracy: A multidisciplinary approach integrating computer vision, machine learning, and control systems
+AU  - Ramesh, Kaki
+AU  - Deshmukh, Sandip
+AU  - Ray, Tathagata
+AU  - Parimi, Chandu
+JO  - Journal of Manufacturing Processes
+VL  - 142
+SP  - 453
+EP  - 467
+PY  - 2025
+DA  - 2025/05/30/
+SN  - 1526-6125
+DO  - https://doi.org/10.1016/j.jmapro.2025.03.112
+UR  - https://www.sciencedirect.com/science/article/pii/S1526612525003640
+KW  - Deep learning
+KW  - Image processing
+KW  - Assembly
+KW  - Manufacturing industries
+KW  - Quality assurance
+AB  - Manufacturing industries face significant challenges in producing high-quality, faultless products within limited timeframes. Conventional human-based inspection methods are still prone to errors and cannot guarantee precise component placement, potentially leading to product failures, user hazards, and substantial financial and reputational losses. This research presents a workflow to automate an inspection system that integrates computer vision, machine learning, image processing, and control systems to address these challenges. The proposed system employs a microcontroller and stepper motors to control a highly calibrated camera, enabling precise and efficient product inspection. At its core, the system utilizes the YOLOv5 model for object detection, specifically identifying hole marks and holes on products pre-assembly. This deep learning model was chosen for its real-time detection capabilities and high accuracy, achieving a mean Average Precision (mAP) of 0.95, which surpasses many current industry standards. Following object detection, advanced image processing techniques are applied to determine the precise position of detected features. Our approach achieves a notable error rate of 0.2 %, offering improvements over traditional inspection methods. Our system offers the potential to reduce inspection processing time and improve fault identification accuracy in real-time applications. Our research contributes to the field of industrial automation by introducing a seamless integration of state-of-the-art computer vision techniques with practical control systems. The system's modular design allows for easy adaptation to various manufacturing environments, benefiting industries with complex assembly processes, such as electronics, automotive manufacturing, etc. While the current implementation focuses on hole detection, future work will explore expanding the system's capabilities to identify a broader range of defects and adapt to different product types. This research paves the way for more intelligent and efficient quality control processes in Industry 4.0, promising to enhance product quality, reduce waste, and improve overall manufacturing efficiency.
+ER  - 
+
+TY  - JOUR
+T1  - Coarse-to-fine vision-based welding spot anomaly detection in production lines of body-in-white
+AU  - Liu, Weijie
+AU  - Hu, Jie
+AU  - Qi, Jin
+JO  - Journal of Manufacturing Systems
+VL  - 81
+SP  - 144
+EP  - 154
+PY  - 2025
+DA  - 2025/08/01/
+SN  - 0278-6125
+DO  - https://doi.org/10.1016/j.jmsy.2025.05.003
+UR  - https://www.sciencedirect.com/science/article/pii/S0278612525001128
+KW  - Welding spot defect
+KW  - Industrial vision-based inspection
+KW  - Deep learning
+KW  - Voting algorithm
+KW  - Integrated system
+AB  - Computer vision-assisted methods for weld quality inspection enable rapid and automated surface defect detection through image data. However, the application of Computer Vision-Assisted Inspection (CVAI) in real-world production lines faces substantial, long-term challenges due to complex environments, imbalanced data samples, real-time processing demands, and safety requirements. Our paper proposes a novel two-stage Coarse-to-Fine Anomaly Detection (CTFAD) framework, which integrates the YOLOv8 network architecture for initial detection with an ensemble of neural networks for fine-grained classification. Additionally, we introduce a voting-based algorithm for improved decision-making accuracy. Experimental results on real-world datasets demonstrate that, compared to standard end-to-end methods, CTFAD enhances detection accuracy and operational efficiency. Our contributions include (1) proposing the CTFAD pipeline for weld anomaly detection, (2) establishing voting-based classification module to increase system robustness and generalization, and (3) developing an integrated weld detection system encompassing data acquisition, processing, analysis, and anomaly alerting. Our code is available at https://github.com/wj-liu0730/ctfad-jms.
+ER  - 
+
+TY  - JOUR
+T1  - Automatic detection of surface defects based on deep random chains
+AU  - Zhang, Tan
+AU  - Wang, Zihe
+AU  - Li, Fengwei
+AU  - Zhong, Haoyang
+AU  - Hu, Xuejuan
+AU  - Zhang, Wenjun
+AU  - Zhang, Dan
+AU  - Liu, Xiaoxu
+JO  - Expert Systems with Applications
+VL  - 229
+SP  - 120472
+PY  - 2023
+DA  - 2023/11/01/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2023.120472
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417423009740
+KW  - Surface defects
+KW  - Defect detection
+KW  - Deep random chains
+KW  - Faster R-CNN
+AB  - Defect detection is critical in production systems. The traditional methods are primarily manual, prohibiting its large-scale industrial application. The current deep learning methods usually require a large amount of data, which is challenging in some cases. This paper presents a novel deep learning method to detect a large variety of defects based on small datasets only. Specifically, the method is based on the deep random chain combined with the adaptive Faster R-CNN. The idea behind this method is to fuse both common and different types of information among candidate groups to each defect candidate, which thus improves the model’s generalization for small sample datasets with a wide variety of defects. Indeed, the deep random chains focus on learning the relationship among the pixels inside each defect, while many features are added to each defect using Faster R-CNN. Several experiments on industrial products demonstrate the merit of the proposed method for small sample datasets with yet a wide variety of defects.
+ER  - 
+
+TY  - JOUR
+T1  - An weak surface defect inspection approach using efficient multi-scale attention and space-to-depth convolution network
+AU  - Fu, Guizhong
+AU  - Chen, Jiaao
+AU  - Qian, Shikang
+AU  - Miao, Jing
+AU  - Li, Jinbin
+AU  - Jiang, Quansheng
+AU  - Zhu, Qixin
+AU  - Shen, Yehu
+JO  - Measurement
+VL  - 243
+SP  - 116220
+PY  - 2025
+DA  - 2025/02/15/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2024.116220
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224124021055
+KW  - Machine vision
+KW  - Weak defect inspection
+KW  - Space-to-depth convolution
+KW  - Efficient multi-scale attention
+AB  - In the field of precision manufacturing, machine vision technology is gradually replacing traditional manual inspection methods as a key technology to improve product quality. In precision manufacturing companies, weak defects on the product surface are unacceptable. However, existing defect detection methods rarely focus on the weak surface defect detection task. To address this challenge, we acquire and build a dataset called USB-DET, which contains weak defect samples. Then, we propose an innovative lightweight deep learning model, SDIA-net, which integrates SPD-Conv, Dysample technique, and attention mechanism-iRMA, to improve the recognition and localization of weak defects effectively. On the USB-DET dataset, SDIA-net achieves 55.1% mAP, which is 3.2% higher than the existing SOTA models. The computational efficiency is 205.1 FPS, which satisfies real-time demands. SDIA-net’s advantages make it well-suited for deployment in resource-limited precision manufacturing environments, providing an effective technical solution for product surface quality control with significant practical application value.
+ER  - 
+
+TY  - JOUR
+T1  - Balanced multi-scale target score network for ceramic tile surface defect detection
+AU  - Cao, Tonglei
+AU  - Song, Kechen
+AU  - Xu, Likun
+AU  - Feng, Hu
+AU  - Yan, Yunhui
+AU  - Guo, Jingbo
+JO  - Measurement
+VL  - 224
+SP  - 113914
+PY  - 2024
+DA  - 2024/01/01/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2023.113914
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224123014781
+KW  - Ceramic tiles
+KW  - Surface defect detection
+KW  - Multi-scale features
+KW  - Object detection
+AB  - Ceramic tiles, as a prevalent building material, exhibit a wide variety of types and high demand. Traditional manual inspection methods relying on human visual observation suffer from low efficiency and unreliable accuracy. Current automated detection methods mostly rely on traditional image processing techniques for feature extraction, followed by machine learning-based classification. However, faced with the diversity of tile types and defect categories, fine-tuning and deployment processes require significant human and material resources, while detection efficiency remains limited. In this study, we first construct a high-resolution dataset for studying surface defects in ceramic tiles (CT surface defects dataset), encompassing multiple batches and various patterns of tiles. Subsequently, data analysis is conducted to address the scale and quantity differences in defect distribution. We propose an improved approach by introducing a content-aware feature recombination method and a dynamic attention mechanism to enhance the classical single-stage object detection algorithm YOLOv5. These enhancements aim to reduce information loss in features and enhance the expression of multi-scale features. Furthermore, we design a loss function that mitigates score differences for multi-scale defects. The proposed approach mitigates the discrepancy in contribution among different scale targets caused by imbalanced quantities. It effectively prevents the model from excessively favoring a specific scale target during the learning process. Experimental results demonstrate the superior accuracy and efficiency of our detection method. Compared to the baseline network YOLOv5, our approach achieved improvements of 4.9% in AP (Average Precision), 6% in APs (small-scale objects), and 8% in APl (large-scale objects). Furthermore, we achieved a 3.9% improvement in detecting white point defects, which are most affected by small-scale objects, and a 4.1% improvement in detecting discolored spot defect, which are most affected by class imbalance.
+ER  - 
+
+TY  - JOUR
+T1  - Multisource data-driven intelligent method for detecting surface defects in cold-rolled copper strips
+AU  - Duan, Bowei
+AU  - Wang, Dongcheng
+AU  - Ma, Yuehua
+AU  - Wang, Guodong
+AU  - Liu, Hongmin
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 152
+SP  - 110730
+PY  - 2025
+DA  - 2025/07/15/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2025.110730
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197625007304
+KW  - Surface defect
+KW  - Cold-rolled copper strips
+KW  - Denoising diffusion probabilistic model
+KW  - Real-time detection transformer
+KW  - Model lightweight
+KW  - Attention mechanism
+AB  - Surface defects are critical in determining the quality of cold-rolled copper strips. Although deep learning-based detection techniques are widely used, they rely heavily on large amounts of annotated data, while in actual production, there are practical bottlenecks in sample acquisition and annotation. To address these challenges, a multi-source data-driven lightweight strip surface defect detection method (Ms-LSSD) is proposed. First, a dataset containing nine types of defects was curated, named the Cold-Rolled Copper Strip defect dataset (CRCS9-DET). Then, the architecture, based on Denoising Diffusion Probabilistic Model (DDPM), improves dataset diversity and mitigates issues related to sample size and imbalance. Next, a lightweight real-time object detector is designed based on Real-Time DEtection TRansformer (RT-DETR) to achieve precise detection of surface defects in cold-rolled copper strips. A novel convolution operator, Adaptive Partial Convolution (APConv), is proposed by introducing channel attention mechanism to enhance representational capacity across different tasks. And an Efficient Adaptive Residual network (EARNet) is established as the foundation for achieving a lightweight model. Finally, experiments were conducted on CRCS9-DET dataset and a public dataset (NEU-DET). Ms-LSSD achieves mean Average Precision (mAP50) of 90.3 % on CRCS9-DET dataset and mAP50 of 78.7 % on NEU-DET, with a detection speed of 52.2 Frames Per Second (FPS), striking a balance between detection performance and inference speed. Compared to state-of-the-art algorithms, Ms-LSSD demonstrates more comprehensive performance potential, making it suitable for industrial applications.
+ER  - 
+
+TY  - JOUR
+T1  - A deep learning-based algorithm for online detection of small target defects in large-size sawn timber
+AU  - Ji, Min
+AU  - Zhang, Wei
+AU  - Han, Jia-kai
+AU  - Miao, Hu
+AU  - Diao, Xing-liang
+AU  - Wang, Guo-fu
+JO  - Industrial Crops and Products
+VL  - 222
+SP  - 119671
+PY  - 2024
+DA  - 2024/12/15/
+SN  - 0926-6690
+DO  - https://doi.org/10.1016/j.indcrop.2024.119671
+UR  - https://www.sciencedirect.com/science/article/pii/S0926669024016480
+KW  - Deep learning
+KW  - YOLO training model
+KW  - Efficient layer aggregation network
+AB  - As a core material in wood structure buildings, the surface quality and grade of timber are crucial to the safety of these structures. The objectives of this study are a) to develop an online detection system for small target defects in large-size Pinus densiflora sawn timber using machine vision/deep learning technology; b) to enhance timber productivity and quality by efficiently and accurately detecting defects using predictive models generated by a deep learning-based algorithm. The predictive models generated by deep learning with a YOLO-integrated network structure are utilized in this study. The proposed methods, including image stitching, segmentation, and fusion techniques based on SIFT features, enable the input of large-size sawn timber oversize images while preserving the integrity of the information. The efficient layer aggregation network enhances machine vision defect detection on timber sawing lines, adapting to variable environments with a focus on Pinus densiflora timber. The results indicated that the machine vision defect detection device is able to predict candidate bounding boxes and class probabilities for multiple types of knots in complex, naturally characterized materials, even under conditions of background noise and interfering factors. Comparing the detection results of the proposed system with the statistical outcomes of manual visual inspections under production conditions involving long hours and large quantities of sawn timber yielded an identification and detection accuracy of 90.37 %. The system's speed for detecting knot defects on the surface of sawn timber can reach 40 m/min, making it suitable for practical application of wood product processing lines.
+ER  - 
+
+TY  - JOUR
+T1  - Few-shot semantic segmentation for industrial defect recognition
+AU  - Shi, Xiangwen
+AU  - Zhang, Shaobing
+AU  - Cheng, Miao
+AU  - He, Lian
+AU  - Tang, Xianghong
+AU  - Cui, Zhe
+JO  - Computers in Industry
+VL  - 148
+SP  - 103901
+PY  - 2023
+DA  - 2023/06/01/
+SN  - 0166-3615
+DO  - https://doi.org/10.1016/j.compind.2023.103901
+UR  - https://www.sciencedirect.com/science/article/pii/S0166361523000519
+KW  - Industrial defect detection
+KW  - Few-shot learning
+KW  - Semantic segmentation
+KW  - Few-shot segmentation
+AB  - In modern manufacturing, vision-based defect recognition is an important technology to guarantee product quality. Deep learning-based vision recognition methods have made great progress in accuracy and generality than traditional vision methods. Training vision-based deep learning models requires a large amount of labeled data. However, data annotation is a laborious task and there is not enough defect data for annotation in many real productions, which becomes a bottleneck for deep learning in industrial applications. In this paper, we constructed a comparison dataset Industrial-5i, which is based on public datasets. This dataset can be used for defect detection methods by comparing images of normal and abnormal products. In addition, we propose a generic defect detection algorithm that not only learns how to compare positive and negative samples to segment defects but also generalizes well to new products. Compared with available few-shot segmentation methods, our method achieves the best defect detection results on the Industrial-5i dataset. Under 1-shot tasks, our method outperforms the baseline by 8.92% in mIoU and 7.68% in FB-IoU. Under 5-shot tasks, our method outperforms the baseline by 9.84% in mIoU and 8.46% in FB-IoU. Our code is available at https://github.com/Alex-ShiLei/IndustrialNet.
+ER  - 
+
+TY  - JOUR
+T1  - Machine learning-based process quality control of screen-printed titanium dioxide electrodes
+AU  - Nyabadza, Anesu
+AU  - Azoulay-Younes, Lola
+AU  - Vazquez, Mercedes
+AU  - Brabazon, Dermot
+JO  - Results in Materials
+VL  - 26
+SP  - 100692
+PY  - 2025
+DA  - 2025/06/01/
+SN  - 2590-048X
+DO  - https://doi.org/10.1016/j.rinma.2025.100692
+UR  - https://www.sciencedirect.com/science/article/pii/S2590048X25000378
+KW  - Machine learning
+KW  - Quality control
+KW  - Artificial intelligence in manufacturing
+KW  - Screen printing
+KW  - Electrodes
+KW  - Random forest
+AB  - AI-based quality control has gained attention in the manufacturing industry due to its ability to improve speed and accuracy. AI can analyze a printed electrode and classify it as either good or bad quality within milliseconds, much faster than humans and conventional methods (random sampling and control charts). Herein, machine learning methods including Random Forest (RF), Support Vector Machine (SVM), and Feedforward Neural Network (FNN) are used to address a quality control problem involving the classification of screen-printed TiO2 electrodes based on image data. Multivariate data analysis techniques such as factor analysis were employed to evaluate the effectiveness of the features extracted from these images. Characterization techniques like FTIR, 4-point probe, and microscopy were used to study the printed electrodes and provide accurate labeling. A dataset comprising ∼300 electrodes was created to train the AI models. The SVM model demonstrated the best performance, achieving 100 % accuracy and recall, followed by the FNN model with 99 % accuracy. Models were optimized and accelerated through feature engineering and extraction techniques, allowing them to be trained in under 1 min. This rapid training capability makes these models highly suitable for real-world quality control applications where hundreds of electrodes are produced per minute.
+ER  - 
+
+TY  - JOUR
+T1  - Narrow gap GTAW defect detection and classification based on transfer learning of generative adversarial networks
+AU  - Yu, Zhengxiao
+AU  - Ma, Ninshu
+AU  - Lu, Hao
+AU  - Yang, Hetong
+AU  - Liu, Weihua
+AU  - Li, Ye
+JO  - Journal of Manufacturing Processes
+VL  - 131
+SP  - 2350
+EP  - 2364
+PY  - 2024
+DA  - 2024/12/12/
+SN  - 1526-6125
+DO  - https://doi.org/10.1016/j.jmapro.2024.10.047
+UR  - https://www.sciencedirect.com/science/article/pii/S1526612524010880
+KW  - Narrow gap GTAW
+KW  - Transfer learning
+KW  - Welding defects
+KW  - Classification
+AB  - Gas tungsten arc welding (GTAW) is the primary process employed for critical applications such as pressure vessels and power pipelines where the weld quality and integrity are essential. Traditionally, its quality and integrity heavily rely on engineers' experience to assess because the phenomena involved are extremely complex to interpret. Deep learning can significantly enhance the efficiency. However, acquiring a sufficient number of correct defect features during actual production presents a challenge. To address this issue, this study first analyzed the narrow GTAW process to identify suitable phenomenon that fundamentally correlates to the relevant defects. To mathematically explain these complex relationships, we explored two classification networks, ResNet and Vision Transformer (VIT), as potentially most effective network structures to filter image features from a public aluminum alloy GTAW database for transfer learning. Additionally, a Generative Adversarial Network (GAN) was utilized to generate defect feature images. Transfer learning from the public database and GAN-generated image features substantially improved the model's prediction accuracy. Validation on the test set revealed that the pre-trained GAN-generated images support the model achieved the best F1 score and accuracy, at 92.78 % and 92.8 %, respectively.
+ER  - 
+
+TY  - JOUR
+T1  - Lightweight defect detection network based on steel strip raw images
+AU  - Huang, Yue
+AU  - Chen, Zhen
+AU  - Chen, Zhaoxiang
+AU  - Zhou, Di
+AU  - Pan, Ershun
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 145
+SP  - 110179
+PY  - 2025
+DA  - 2025/04/01/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2025.110179
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197625001794
+KW  - Steel strip raw image
+KW  - Lightweight network
+KW  - Deep learning
+KW  - Defect detection
+KW  - Attention mechanism
+AB  - Efficient defect detection on hot rolled steel strips is important for industrial production. However, existing defect detection methods are not lightweight enough and lack detection ability for actual steel production environments. A lightweight detection framework based on raw steel strip defect images is proposed to address this gap. A new strip surface defect detection dataset comprising 2650 raw images with five defect types is established. Considering the unique features of strip images, a new strip image augmentation strategy is employed to enhance training sample diversity. Then, a novel lightweight model is introduced. The model consists of the Location Enhanced Ghost Network (LEG-Net) and the Refine Grouped Spatial Network (RGS-Net). The LEG-Net incorporates Ghost modules and a new Location Enhanced Attention. The lightweight backbone effectively reduces the number of parameters. The RGS-Net neck part consists of a slim neck and Efficient Channel Attention. The RGS-Net increases the extraction of channel information and then realizes the defect recognition between different defect types and backgrounds by adjusting the spatial receptive field mechanism. The mean Average Precision (mAP) accuracy of the proposed lightweight model is 76.9% and the speed is 33 Frames Per Second (FPS). Compared to existing models on three datasets, the proposed network delivers superior detection accuracy while incurring lower computational costs. It effectively identifies challenging defects, such as small targets and large fuzzy samples. Furthermore, the proposed framework closely resembles the actual steel production environment, thereby advancing the industrial application of intelligent defect detection.
+ER  - 
+
+TY  - JOUR
+T1  - Edge-Deployed Deep Learning for Automated Quality Control in Industrial Assembly: A Case Study in Real-Time Defect Detection
+AU  - Ashourpour, Milad
+AU  - Azizpour, Ghazaleh
+JO  - Procedia CIRP
+VL  - 134
+SP  - 735
+EP  - 740
+PY  - 2025
+DA  - 2025/01/01/
+T2  - 58th CIRP Conference on Manufacturing Systems 2025
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2025.02.180
+UR  - https://www.sciencedirect.com/science/article/pii/S2212827125005724
+KW  - Robotic Automation
+KW  - Deep Learning
+KW  - Defect Detection
+KW  - YOLOv8
+KW  - Assembly Line
+AB  - Recent advancements in computer vision (CV) and deep learning (DL) have significantly enhanced automated quality control in manufacturing. The use of deep Convolutional Neural Networks (CNNs) has revolutionized inspections by offering fast, accurate, and cost-effective solutions that minimize human intervention. This study focuses on a visual inspection task for quality control (QC) on an assembly line that is powered by a YOLOv8-based DL algorithm and integrates a robotic process control on the line. Through experimental evaluation, two YOLOv8 are trained and evaluated on a dataset containing annotated images collected from an active assembly line: an optimized YOLOv8.2s model and a verification YOLOv8.2m model. The optimized model achieves mAP50 of 0.972 and mAP50-95 of 0.647 across all classes, while the verification model shows marginal improvement with mAP50 of 0.979 and mAP50-95 of 0.673. However, this comes at the cost of noticeable increased computational demands, with training time increasing from 14 hours to 46 hours. The findings demonstrate that while larger models may offer slight performance improvements (2.6-3.8% in mAP50-95), the trade-off between computational resources and performance gains must be carefully considered in industrial applications.
+ER  - 
+
+TY  - JOUR
+T1  - WARM: A wavelet adaptive restoration module for surface anomaly detection
+AU  - Qiao, Zelong
+AU  - Lin, Mingxing
+AU  - Lin, Jie
+AU  - Ding, Dejia
+JO  - Measurement
+VL  - 232
+SP  - 114689
+PY  - 2024
+DA  - 2024/06/15/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2024.114689
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224124005748
+KW  - Wavelet Transform
+KW  - Image Restoration
+KW  - Defect Detection
+KW  - Lithium-ion Battery pole-piece
+KW  - MvTec AD
+AB  - As a key component of lithium-ion batteries, surface defect detection of pole-piece is vital for quality control. Detection methods based on supervised have been used in pole-piece. However, the long cycle for data collection cannot meet the needs for fast construction and application of production line, making self-supervised a promising alternative. Although existing restoration-based methods have been widely studied, it’s still difficult to balance the problem of restoring normal regions and distinguishing abnormalities. We propose a Wavelet Adaptive Reconstruction Module by exploiting the obvious spatial and frequency differences between intra-class normal and abnormal features. Through training, the wavelet coefficients of the inputs are adaptively refined, potently obstructing the identity map from input image to restored image, thus improving the generalization of restoration network. The structure only consists of 2 simple Unets and WARM, it solves the anomaly detection task for pole-piece, and also outperforms other state-of-the-arts on MvTec AD.
+ER  - 
+
+TY  - JOUR
+T1  - TSEDNet:Task-specific encoder–decoder network for surface defects of strip steel
+AU  - Guo, Yuyang
+AU  - Wei, Jingliang
+AU  - Feng, Xinglong
+JO  - Measurement
+VL  - 239
+SP  - 115438
+PY  - 2025
+DA  - 2025/01/15/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2024.115438
+UR  - https://www.sciencedirect.com/science/article/pii/S026322412401323X
+KW  - Encoder–decoder
+KW  - Metric learning
+KW  - Domain knowledge
+KW  - Surface defect detection
+AB  - Deep learning faces challenges in the surface defect segmentation of strip steel. Firstly, insufficient processing of feature maps leads to the loss of task-specific feature information. Secondly, the segmentation of defects with long-tail distributions is not accurate enough. To address these issues, a pixel-level deep segmentation method called task-specific encoder–decoder network (TSEDNet) is proposed to construct an end-to-end defect segmentation model. TSEDNet includes the encoder-multi-decoder structure based on domain knowledge settings tailored to specific tasks, which can achieve effective feature representation and significantly reduce the impact of imbalanced defect quantities. Additionally, a novel metric learning method is introduced to optimize decoder selection. Furthermore, the feature fusion module based on metric learning is proposed to utilize general features for restoring task-specific details, thereby enhancing pixel-level segmentation accuracy. Through experiments and industrial validation, the defect segmentation network demonstrates superior performance compared to other advanced segmentation methods and proves its applicability in practical scenarios.
+ER  - 
+
+TY  - JOUR
+T1  - An efficient targeted design for real-time defect detection of surface defects
+AU  - Cui, Wenqi
+AU  - Song, Kechen
+AU  - Jia, Xiujian
+AU  - Chen, Hongshu
+AU  - Zhang, Yu
+AU  - Yan, Yunhui
+AU  - Jiang, Wenying
+JO  - Optics and Lasers in Engineering
+VL  - 178
+SP  - 108174
+PY  - 2024
+DA  - 2024/07/01/
+SN  - 0143-8166
+DO  - https://doi.org/10.1016/j.optlaseng.2024.108174
+UR  - https://www.sciencedirect.com/science/article/pii/S0143816624001532
+KW  - Manufacturing automation
+KW  - Visual inspection
+KW  - Surface defect detection
+KW  - Industry 4.0
+KW  - Quality control
+AB  - In practical industrial applications, the inference speed of deep learning models directly affects the efficiency of industrial production. Therefore, the lightweight real-time detection method of surface defects is an essential task in the industrial process. We need to achieve a favorable balance between efficiency and accuracy since the rising demand for production efficiency. However, most of the existing pixel-level detection methods 1) often adopt huge computational overhead to learn rich features, resulting in slow inference speed and 2) show a performance degradation when applied to different industrial surface defect scenarios. To this end, we propose an efficient targeted design (ETD) for real-time defect detection of surface defects. It consists of two branches: (i) an efficient feature enhancement branch, with global aggregation module (GAM) and cross-scale guide module (CGM) to gradually enhance defect features, and (ii) an edge posterior branch, with verification module (VM) and scale interaction module (SIM) to implicitly guide the boundary details of defects. Specifically, while inheriting this framework, we reconsider the relationship between precision, parameters, and speed so that our model can be applied to different industrial scenarios. Extensive experimental results on four datasets indicate that ETD outperforms other leading saliency detection methods. Meanwhile, our method ETD-S achieves 347 FPS on ESDIs-SOD dataset, 254 FPS on Crack500 dataset, 227 FPS on NRSD-MN dataset and 273 FPS on DAGM dataset. Additionally, we conduct real-time analysis of ETD on an intelligent paradigm for industrial surface defect detection, further demonstrating its efficacy in practical scenarios. ETD demonstrates effective detection performance while achieving a lightweight architecture, which can be implemented using various deep learning frameworks, showcasing substantial potential for real-time surface defect detection. The source code and dataset are publicly available at https://github.com/VDT-2048/ETD.
+ER  - 
+
+TY  - JOUR
+T1  - Cascaded detection method for surface defects of lead frame based on high-resolution detection images
+AU  - Sun, Tingrui
+AU  - Li, Zhiwei
+AU  - Xiao, Xinjie
+AU  - Guo, Zhihui
+AU  - Ning, Wenle
+AU  - Ding, Tingting
+JO  - Journal of Manufacturing Systems
+VL  - 72
+SP  - 180
+EP  - 195
+PY  - 2024
+DA  - 2024/02/01/
+SN  - 0278-6125
+DO  - https://doi.org/10.1016/j.jmsy.2023.11.017
+UR  - https://www.sciencedirect.com/science/article/pii/S0278612523002443
+KW  - Lead frame
+KW  - Surface defect detection
+KW  - Deep learning
+KW  - High-resolution image
+KW  - Machine vision
+AB  - In the field of semiconductor production and manufacturing, the detection of defects on lead frame surfaces is a vital process. This process plays a key role in ensuring the quality of the final product. Using high-resolution detection images to detect multi-scale tiny surface defects is necessary, but this amplifies the impact of environmental noise. Therefore, suppressing both the false negative rate and false positive rate in practical detection scenarios is a challenge that needs to be overcome. Current research on lead frame surface defect detection is mostly concentrated on the downloaded standard original images, which limits its application in actual production lines. This paper presents a cascaded detection method for surface defects of lead frame based on high-resolution detection images. Firstly, this study presents the unit cell extraction module to convert the detection object from high-resolution image to hundreds of unit cells. The proposed module can handle real-time detection images in the production pipeline, especially addressing situations such as lighting imbalances and tilted detection images. Subsequently, this study proposes a lead frame surface defect detection network (LDD-net), which takes unit cells as inputs and can effectively detect multi-scale defects. Compared to other models, LDD-net can effectively capture the features of subtle defects. Additionally, this paper introduces the deviation in the central width direction into the CIoU localization loss, enhancing the accuracy of defect localization in LDD-net. The data set is constructed using the machine vision detection system and conducts training and testing. Specifically, experiments of LDD-net on the data set obtained 85.01% mean average precision (mAP) and 37 ms of inference time, respectively. The detection accuracy exceeds 95%, and the false negative rate can be controlled below 6%. This approach will assist manual monitoring personnel in evaluating product quality.
+ER  - 
+
+TY  - JOUR
+T1  - Automotive fuse & relay box plug-in modules assembly correctness detection system based on machine vision
+AU  - Gong, ZhengWei
+AU  - Song, Jun
+AU  - Zhang, Ping
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 159
+SP  - 111691
+PY  - 2025
+DA  - 2025/11/15/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2025.111691
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197625016938
+KW  - Automotive fuse and relay box
+KW  - Deep learning
+KW  - Machine vision application
+KW  - My structured query language database management
+KW  - Assembly correctness detection system
+AB  - The automotive fuse and relay box is vital for electrical safety and reliability, demanding stringent quality control before leaving the factory. However, existing methods face limitations such as light interference, inability to detect non-fuse plug-in modules, lack of worker-friendly interfaces, insufficient data recording features, and a lack of comparative diagnostic capabilities for detection results. To address these issues, an artificial intelligence (AI)-powered automotive fuse and relay box assembly correctness detection system based on machine vision is proposed. This system incorporates a closed image acquisition setup, advanced machine vision techniques, and My Structured Query Language (MySQL) database operations for efficient data management. A comprehensive detection rule-setting subsystem, developed with Python Qt 5 (PyQt5) graphical user interface (GUI), integrates classification detection, similarity detection, color detection, and text recognition, allowing users to easily create detection rules. Additionally, a PyQt5-based template selection subsystem further streamlines template identification for various scenarios. The detection system combines these four methods with an object detection method for real-time, accurate assembly verification. The core You Only Look Once version 11 extra-large (YOLOx) model provides fast and precise localization, while supplementary modules—Residual Neural Network with 18 layers for classification detection, Siamese network-based similarity detection, binary character recognition, and color detection—work synergistically to enhance detection robustness and accuracy. The system achieves an average detection time of 0.141 s per module for correct assemblies and 1.398 s for faulty assemblies. Demonstrating 99.9 % accuracy, high adaptability, and efficient detection, the system is highly suitable for large-scale, real-world production environments.
+ER  - 
+
+TY  - JOUR
+T1  - Attention-based deep learning for tire defect detection: Fusing local and global features in an industrial case study
+AU  - Saleh, Radhwan A.A.
+AU  - Ertunç, H. Metin
+JO  - Expert Systems with Applications
+VL  - 269
+SP  - 126473
+PY  - 2025
+DA  - 2025/04/15/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2025.126473
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417425000958
+KW  - Tire defect detection
+KW  - Attention modules
+KW  - Lightweight attention based inception module
+KW  - Convolutional neural network (CNN)
+KW  - Vision transformer (ViT)
+KW  - X-ray images
+AB  - In tire manufacturing, quality inspections of tires are paramount due to the potential for explosive failures in defective tires, especially during high-speed driving events like races. Addressing this concern requires rigorous post-production visual inspections. However, the diverse textures and structures of tires make defect detection a challenging task. In light of this challenge, this paper introduces an innovative solution in the form of a hybrid ViT-CNN model designed specifically for tire defect detection. Firstly, we propose a lightweight attention-based inception module, which serves as a primary component in the attention-based CNN model we propose. This attention-based CNN extracts local feature mapping from the entire image, while the ViT captures global features from image patches. A dataset comprising 83985 X-ray images of tires without defects and 38710 of tires with defects, representing 15 different types of defects across 50 design patterns, is used to train and test the model. Result shows the superiority of the ViT-CNN model with a recall rate of 95.48%, precision of 96.1%, F1 score of 95.79%, and overall accuracy of 97.33%. Statistical tests, including the Friedman and Wilcoxon signed-rank tests, were employed to assess the presence of significant differences between the proposed ViT-CNN model and the individual models. The results obtained from these tests underscore the significant differences that exist between models. Furthermore, the ViT-CNN model succeeds in identifying diverse tire defects and complex textures, making it effective in real-world scenarios. This research increases automated tire flaw identification, addressing the industry’s requirement for precise and dependable inspection while improving human safety by offering a high-performing model.
+ER  - 
+
+TY  - JOUR
+T1  - YOLOv5 based object detection in reel package X-ray images of semiconductor component
+AU  - Park, Jinwoo
+AU  - Lee, Jaehyeong
+AU  - Jeong, Jongpil
+JO  - Heliyon
+VL  - 10
+IS  - 5
+SP  - e26532
+PY  - 2024
+DA  - 2024/03/15/
+SN  - 2405-8440
+DO  - https://doi.org/10.1016/j.heliyon.2024.e26532
+UR  - https://www.sciencedirect.com/science/article/pii/S2405844024025635
+KW  - Small object detection
+KW  - Semiconductor
+KW  - X-ray
+KW  - YOLOv5
+KW  - Artificial intelligence
+AB  - The industrial manufacturing landscape is currently shifting toward the incorporation of technologies based on artificial intelligence (AI). This transition includes an evolution toward smart factory infrastructure, with a specific focus on AI-driven strategies in production and quality control. Specifically, AI-empowered computer vision has emerged as a potent tool that offers a departure from extant rule-based systems and provides enhanced operational efficiency at manufacturing sites. As the manufacturing sector embraces this new paradigm, the impetus to integrate AI-integrated manufacturing is evident. Within this framework, one salient application is AI deep learning–facilitated small-object detection, which is poised to have extensive implications for diverse industrial applications. This study describes an optimized iteration of the YOLOv5 model, which is known for its efficacious single-stage object-detection abilities underpinned by PyTorch. Our proposed “improved model” incorporates an additional layer to the model's canonical three-layer architecture, augmenting accuracy and computational expediency. Empirical evaluations using semiconductor X-ray imagery reveal the model's superior performance metrics. Given the intricate specifications of surface-mount technologies, which are characterized by a plethora of micro-scale components, our model makes a seminal contribution to real-time, in-line production assessments. Quantitative analyses show that our improved model attained a mean average precision of 0.622, surpassing YOLOv5's 0.349, and a marked accuracy enhancement of 0.865, which is a significant improvement on YOLOv5's 0.552. These findings bolster the model's robustness and potential applicability, particularly in discerning objects at reel granularities during real-time inferencing.
+ER  - 
+
+TY  - JOUR
+T1  - Maximizing steel slice defect detection: Integrating ResNet101 deep features with SVM via Bayesian optimization
+AU  - Sethy, Prabira Kumar
+AU  - Korada, Laxminarayana
+AU  - Behera, Santi Kumari
+AU  - Shirole, Akshay
+AU  - Amat, Rajat
+AU  - Nanthaamornphong, Aziz
+JO  - Systems and Soft Computing
+VL  - 6
+SP  - 200170
+PY  - 2024
+DA  - 2024/12/01/
+SN  - 2772-9419
+DO  - https://doi.org/10.1016/j.sasc.2024.200170
+UR  - https://www.sciencedirect.com/science/article/pii/S2772941924000991
+KW  - Steel slice
+KW  - Defect detection
+KW  - Deep feature
+KW  - Support vector machine
+KW  - ResNet101
+KW  - Bayesian optimization
+AB  - Accurate detection of defects on steel surfaces is crucial for maintaining quality standards in steel production. This paper addresses the challenge of classifying steel sheets into distinct defect categories by presenting a robust method that leverages deep learning and advanced optimization techniques. We propose a novel approach that utilizes the ResNet101 model to extract deep features, which are then classified using a support vector machine (SVM). To enhance the SVM's performance, Bayesian optimization is employed for hyperparameter tuning. Our method is validated using the "Severstal: Steel Defect Detection" dataset from Kaggle, achieving a validation accuracy of 89.1 % and a test accuracy of 90.6 %, with a classification error of 0.10934. Additionally, the area under the curve (AUC) for each class exceeds 0.95 in both the validation and test sets, demonstrating excellent discriminatory power. Further evaluation on the DAGM dataset achieved flawless results, with an accuracy of 100 %, AUC of 1, sensitivity of 100 %, specificity of 100 %, precision of 100 %, MCC of 100 %, F1 score of 1, and kappa of 100 %. On the NEU dataset, our method achieved an accuracy of 97.92 %, sensitivity of 97.92 %, specificity of 99.58 %, precision of 98.06 %, F1 score of 0.9791, MCC of 97.55 %, and kappa of 92.50 %. These results demonstrate the robustness and adaptability of the proposed method, offering an efficient and reliable solution for automating steel defect detection and surface defect classification in industrial applications.
+ER  - 
+
+TY  - JOUR
+T1  - IDDM: An incremental dual-network detection model for in-situ inspection of large-scale complex product
+AU  - Zhang, Fenghua
+AU  - Chen, Zhehan
+JO  - Journal of Industrial Information Integration
+VL  - 33
+SP  - 100463
+PY  - 2023
+DA  - 2023/06/01/
+SN  - 2452-414X
+DO  - https://doi.org/10.1016/j.jii.2023.100463
+UR  - https://www.sciencedirect.com/science/article/pii/S2452414X23000365
+KW  - In-situ visual inspection
+KW  - Semi-supervised learning
+KW  - Incremental labeling
+KW  - Quality control
+KW  - Large-scale product
+AB  - Appearance inspection is crucial for quality control during the manufacturing of large complex products. In-situ visual inspection based on image processing and machine learning can significantly reduce the production costs by avoiding the stages of transshipment and relocation, etc. However, imaging and model training are challenged by the complex background, illuminance, and changing environment of the production site. In addition, large dataset is hard to be obtained with object-level annotations owing to the high cost of manual annotation in practical situations. In this paper, we proposed an Incremental Dual network Detection Model (IDDM) for efficient and high-precision inspection of the appearance of large complex product base on in-situ images. A dual network structure is used to implement the incremental training of the model based on metric learning and batch labeling of unlabeled data during the training on a small number of well-labeled samples. The regions of interest are extracted based on multi-feature and refined to improve the positional accuracy of the defects in complex background. On the public dataset, the experimental results derived on various annotation scales showed a better performance of the proposed IDDM compared to the supervised object-detection baselines. The mean Average Precision (mAP) was 51.8% with a 25% labeled ratio and the processing speed was 22 frames per second (FPS). In addition, the proposed method was applied to the defect detection of the snow groomer surface as an industrial case.
+ER  - 
+
+TY  - JOUR
+T1  - Automatic zipper tape defect detection using two-stage multi-scale convolutional networks
+AU  - Fang, Houzhang
+AU  - Xia, Mingjiang
+AU  - Liu, Hehui
+AU  - Chang, Yi
+AU  - Wang, Liming
+AU  - Liu, Xiyang
+JO  - Neurocomputing
+VL  - 422
+SP  - 34
+EP  - 50
+PY  - 2021
+DA  - 2021/01/21/
+SN  - 0925-2312
+DO  - https://doi.org/10.1016/j.neucom.2020.09.046
+UR  - https://www.sciencedirect.com/science/article/pii/S0925231220314545
+KW  - Automatic defect detection
+KW  - Zipper tape inspection
+KW  - Fully convolutional neural network
+KW  - Feature fusion
+KW  - Multi-scale detection
+AB  - Defects inevitably occur during the manufacturing process of the zipper, significantly affecting its value. Zipper inspection is of significant importance in ensuring the quality of the zipper products. Traditional zipper inspection requires skilled inspectors and is labor-intensive, inefficient, and inaccurate. Currently, automated zipper defects inspection with high precision and high efficiency is still very challenging. In this paper, we propose a novel zipper tape defect detection framework based on fully convolutional networks in a two-stage coarse-to-fine cascade manner. For our special application, the zipper tape defects have multi-scale characteristics. Most of the existing deep learning methods have great advantages in detecting the large-scale defects with prominent features, but are prone to fail in detecting the small-scale ones due to their less remarkable features as well as their general location in a large background area. Thus, we propose to detect first the large local context regions containing the small-scale defects using a multi-scale detection architecture with high efficiency, which integrates a new detection branch by fusing the features in the shallow layer into the high-level layer to boost the detection performance of the context regions. Then we finely detect the small-scale defects from the local context regions detected in the first stage, which can be regarded as large-scale objects that are more easily detected. Extensive comparative experiments demonstrate that the proposed method offers a high detection accuracy while still having high detection efficiency compared with the state-of-the-art methods, coupled with good robustness in some complex cases.
+ER  - 
+
+TY  - JOUR
+T1  - A lightweight deep learning algorithm for inspection of laser welding defects on safety vent of power battery
+AU  - Yang, Yatao
+AU  - Yang, Runze
+AU  - Pan, Longhui
+AU  - Ma, Junxian
+AU  - Zhu, Yishuang
+AU  - Diao, Tao
+AU  - Zhang, Li
+JO  - Computers in Industry
+VL  - 123
+SP  - 103306
+PY  - 2020
+DA  - 2020/12/01/
+SN  - 0166-3615
+DO  - https://doi.org/10.1016/j.compind.2020.103306
+UR  - https://www.sciencedirect.com/science/article/pii/S0166361520305406
+KW  - Automatic optical inspection
+KW  - Convolutional neural network (CNN)
+KW  - Image classiﬁcation
+KW  - Laser welding defects
+KW  - SqueezeNet model
+AB  - With the wide applications of power battery in the automobile industries, the safety of power battery is becoming an increasingly prominent problem. At present, a safety vent welded on the battery plate could prevent unpredictable explosions. To perform quality control, the inspection of laser welding defects on safety vent is a critical issue. In this paper, based on the theory of convolutional neural network (CNN) and the technique of transfer learning, a pre-trained SqueezeNet model with small model size and low computation complexity was proposed. We totally collected 34537 images from the production line, and built a 2-classifications dataset and a 7-classifications dataset respectively. It proves that our proposed model achieved better accuracy than the other six contrastive CNN models in these two classification tasks. Specifically, it obtained an accuracy of 99.57 % in the 2-classifications task and an accuracy of 95.58 % in the 7-classifications task. Besides, the model features lightweight and high-speed with only 1.2 MB model size and 4.9 ms average test time; so, it is more suitable for welding quality inspection of safety vent in an industrial production line. Additionally, we ported our pre-trained SqueezeNet and the other four contrastive models to Raspberry Pi embedded system to evaluate their response time. Our proposed model has achieved well response time of less than 330 ms. Our experiments indicate that the proper CNN model can help to conduct the laser welding quality inspection tasks that are usually performed by humans.
+ER  - 
+
+TY  - JOUR
+T1  - Deep object detection framework for automated quality inspection in assembly operations
+AU  - Basamakis, Fotios Panagiotis
+AU  - Bavelos, Angelos Christos
+AU  - Dimosthenopoulos, Dimosthenis
+AU  - Papavasileiou, Apostolis
+AU  - Makris, Sotiris
+JO  - Procedia CIRP
+VL  - 115
+SP  - 166
+EP  - 171
+PY  - 2022
+DA  - 2022/01/01/
+T2  - 10th CIRP Global Web Conference – Material Aspects of Manufacturing Processes
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2022.10.068
+UR  - https://www.sciencedirect.com/science/article/pii/S2212827122015037
+KW  - quality inspection
+KW  - machine vision
+KW  - CNN
+KW  - AAS
+KW  - defect detection
+AB  - The recent advance of flexible production systems requires fast and objective quality inspection of products. Computer vision based deep Convolutional Neural Networks (CNNs), are suitable for such applications since they provide automated, non-destructive, and cost-effective techniques to accomplish the requirements, hence eliminating the human operators or other inspections. In this paper a deep learning object detection framework is presented, able to detect correct, misaligned, and missing objects in complex scenes of the production line. Furthermore, the proposed architecture provides interfaces that allow the seamless integration of the model with varying manufacturing systems.
+ER  - 
+
+TY  - JOUR
+T1  - The detection of defects in ceramic cell phone backplane with embedded system
+AU  - Huang, Wuzhen
+AU  - Zhang, Chi
+AU  - Wu, Xian
+AU  - Shen, Jianyun
+AU  - Li, Yuan
+JO  - Measurement
+VL  - 181
+SP  - 109598
+PY  - 2021
+DA  - 2021/08/01/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2021.109598
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224121005728
+KW  - Defect detection
+KW  - Ceramics cell phone backplane
+KW  - Embedded system
+AB  - This paper is focused on the defect detection of ceramic cell phone backplane that is made of zirconia after computer numerical control (CNC) machining. A detection system is proposed to detect surface defects on the ground cell phone ceramics backplane based on the digital image processing technology. The detection system is composed of an optical platform bracket, an industrial camera, a light source, and a development board with the trained model. First, the image samples of ceramics cell phone backplane are extracted and preprocessed using the optical platform. Then, the algorithms of defect identification are presented, and the effect of parameters on algorithm is studied. Finally, the trained deep learning model is applied to the embedded platform of the Android environment. The experimental results show that the recognition accuracy of the model can reach 89.9%, and the recognition efficiency of the model on Android platform can achieve 2 frames per second (FPS). Consequently, this developed method has certain application prospects in the field of defect detection in rapid automated production lines.
+ER  - 
+
+TY  - JOUR
+T1  - Streaming Machine Learning and Online Active Learning for Automated Visual Inspection.⁎⁎This work was supported by the Slovenian Research Agency and the European Union’s Horizon 2020 program project STAR under grant agreement number H2020-956573.
+AU  - Rožanec, Jože M.
+AU  - Trajkova, Elena
+AU  - Dam, Paulien
+AU  - Fortuna, Blaž
+AU  - Mladenić, Dunja
+JO  - IFAC-PapersOnLine
+VL  - 55
+IS  - 2
+SP  - 277
+EP  - 282
+PY  - 2022
+DA  - 2022/01/01/
+T2  - 14th IFAC Workshop on Intelligent Manufacturing Systems IMS 2022
+SN  - 2405-8963
+DO  - https://doi.org/10.1016/j.ifacol.2022.04.206
+UR  - https://www.sciencedirect.com/science/article/pii/S2405896322002075
+KW  - Intelligent manufacturing systems
+KW  - Artificial intelligence
+KW  - Machine learning
+KW  - Quality assurance
+KW  - maintenance
+KW  - Fault detection
+KW  - Intelligent manufacturing
+KW  - Human centred automation
+AB  - Quality control is a crucial activity performed by manufacturing companies to verify product conformance to the requirements and specifications. Standardized quality control ensures that all the products are evaluated under the same criteria. The decreased cost of sensors and connectivity enabled an increasing digitalization of manufacturing and provided greater data availability. Such data availability has spurred the development of artificial intelligence models, which allow higher degrees of automation and reduced bias when inspecting the products. Furthermore, the increased inspection speed reduces overall costs and time required for defect inspection. In this research, we compare five streaming machine learning algorithms applied to visual defect inspection with real-world data provided by Philips Consumer Lifestyle BV. Furthermore, we compare them in a streaming active learning context, which reduces the data labeling effort in a real-world context. Our results show that active learning reduces the data labeling effort by almost 15% on average for the worst-case while keeping an acceptable classification performance. The use of machine learning models for automated visual inspection is expected to speed up the quality inspection up to 40%.
+ER  - 
+
+TY  - JOUR
+T1  - Automatic dimensional defect detection for glass vials based on machine vision: A heuristic segmentation method
+AU  - Eshkevari, Milad
+AU  - Jahangoshai Rezaee, Mustafa
+AU  - Zarinbal, Marzieh
+AU  - Izadbakhsh, Hamidreza
+JO  - Journal of Manufacturing Processes
+VL  - 68
+SP  - 973
+EP  - 989
+PY  - 2021
+DA  - 2021/08/01/
+SN  - 1526-6125
+DO  - https://doi.org/10.1016/j.jmapro.2021.06.018
+UR  - https://www.sciencedirect.com/science/article/pii/S152661252100431X
+KW  - Machine vision for dimensional defect detection
+KW  - Heuristic segmentation method
+KW  - Medicine glass vial
+KW  - Image processing
+AB  - The vial, a bottle known to store the drug, should be controlled to meet the requirements of the standard dimension. Due to problems with a visual inspection, there is a need to develop an automated inspection system. In this paper, a machine vision system for measuring and controlling the dimensional characteristics of medical glass vials has been developed. In this regard, because of the difficulty of taking images of glass vials and reflecting the light that may have these images, some innovative actions have been taken to determine the way for obtaining the appropriate images. Also, the effectiveness of several common segmentation methods has been examined and a heuristic segmentation method is proposed to extract vial borders. Finally, using to integrate heuristic segmentation method and appropriate post-processing methods as well as employing machine learning, an automated approach for measuring different dimensional characteristics of vials is proposed and evaluated by real samples.
+ER  - 
+
+TY  - JOUR
+T1  - Deep Learning-Based Intelligent Defect Detection of Cutting Wheels with Industrial Images in Manufacturing
+AU  - Yang, Shaojie
+AU  - Li, Xiang
+AU  - Jia, Xiaodong
+AU  - Wang, Yinglu
+AU  - Zhao, Haodong
+AU  - Lee, Jay
+JO  - Procedia Manufacturing
+VL  - 48
+SP  - 902
+EP  - 907
+PY  - 2020
+DA  - 2020/01/01/
+T2  - 48th SME North American Manufacturing Research Conference, NAMRC 48
+SN  - 2351-9789
+DO  - https://doi.org/10.1016/j.promfg.2020.05.128
+UR  - https://www.sciencedirect.com/science/article/pii/S2351978920315808
+KW  - Deep learning
+KW  - defect detection
+KW  - cutting wheel
+KW  - convolutional neural network
+KW  - machine vision
+AB  - The cutting wheel is an important tool in the television liquid crystal display (LCD) panel manufacturing process. The degradation of the cutting wheel significantly affects the LCD panel quality. Currently, there is few effective approaches that can detect the degradation of the cutting wheel at the working station for health monitoring purpose, due to the small size of the component and the complex manufacturing operation. That leads to high economic costs in the production lines in the real industries. In order to address this issue, this paper presents a deep convolutional neural network-based method for defect detection of the cutting wheels using the industrial images. An end-to-end health monitoring system is built based on machine vision, which directly takes the raw images as inputs, and outputs the detection results. That facilitates the industrial applications since little prior knowledge on image processing and fault detection is required. The experiments on a real-world cutting wheel degradation dataset are carried out for validation. High fault diagnosis testing accuracies are obtained, that indicates the proposed method offers an effective and promising approach for the cutting wheel health monitoring problem.
+ER  - 
+
+TY  - JOUR
+T1  - Application of Deep Learning Convolutional Neural Networks for Internal Tablet Defect Detection: High Accuracy, Throughput, and Adaptability
+AU  - Ma, Xiangyu
+AU  - Kittikunakorn, Nada
+AU  - Sorman, Bradley
+AU  - Xi, Hanmi
+AU  - Chen, Antong
+AU  - Marsh, Mike
+AU  - Mongeau, Arthur
+AU  - Piché, Nicolas
+AU  - Williams, Robert O.
+AU  - Skomski, Daniel
+JO  - Journal of Pharmaceutical Sciences
+VL  - 109
+IS  - 4
+SP  - 1547
+EP  - 1557
+PY  - 2020
+DA  - 2020/04/01/
+SN  - 0022-3549
+DO  - https://doi.org/10.1016/j.xphs.2020.01.014
+UR  - https://www.sciencedirect.com/science/article/pii/S0022354920300198
+KW  - convolutional neural network
+KW  - deep learning
+KW  - internal tablet defects
+KW  - automation
+KW  - oral formulation
+KW  - (high throughput) imaging data analysis
+KW  - XRCT 
+AB  - Tablet defects encountered during the manufacturing of oral formulations can result in quality concerns, timeline delays, and elevated financial costs. Internal tablet cracking is not typically measured in routine inspections but can lead to batch failures such as tablet fracturing. X-ray computed tomography (XRCT) has become well-established to analyze internal cracks of oral tablets. However, XRCT normally generates very large quantities of image data (thousands of 2D slices per data set) which require a trained professional to analyze. A user-guided manual analysis is laborious, time-consuming, and subjective, which may result in a poor statistical representation and inconsistent results. In this study, we have developed an analysis program that incorporates deep learning convolutional neural networks to fully automate the XRCT image analysis of oral tablets for internal crack detection. The computer program achieves robust quantification of internal tablet cracks with an average accuracy of 94%. In addition, the deep learning tool is fully automated and achieves a throughput capable of analyzing hundreds of tablets. We have also explored the adaptability of the deep learning analysis program toward different products (e.g., different types of bottles and tablets). Finally, the deep learning tool is effectively implemented into the industrial pharmaceutical workflow.
+ER  - 
+
+TY  - JOUR
+T1  - A deep transfer learning model for inclusion defect detection of aeronautics composite materials
+AU  - Gong, Yanfeng
+AU  - Shao, Hongliang
+AU  - Luo, Jun
+AU  - Li, Zhixue
+JO  - Composite Structures
+VL  - 252
+SP  - 112681
+PY  - 2020
+DA  - 2020/11/15/
+SN  - 0263-8223
+DO  - https://doi.org/10.1016/j.compstruct.2020.112681
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822320326076
+KW  - Inclusion defect detection
+KW  - Aeronautics composite materials
+KW  - Transfer learning
+KW  - Feature extraction
+AB  - Composite materials are increasingly used as structural components in military and civilian aircraft. To ensure their high reliability, numerous non-destructive testing (NDT) techniques have been used to detect defects during production and maintenance. However, most of these techniques are non-automatic, with diagnostic results determined subjectively by operators. Some deep learning methods have been proposed to identify defects in images obtained through NDT, but they need labeled image samples with defects, which can be expensive or unavailable. We propose a deep transfer learning model to accurately extract features for the inclusion of defects in X-ray images of aeronautics composite materials (ACM), whose samples are scarce. We researched an automatic inclusion defect detection method for X-ray images of ACM using our proposed model. Experimental results show that the model can reach 96% classification accuracy (F1_measure) with satisfactory detection results.
+ER  - 
+
+TY  - JOUR
+T1  - Stacked convolutional sparse denoising auto-encoder for identification of defect patterns in semiconductor wafer map
+AU  - Yu, Jianbo
+AU  - Zheng, Xiaoyun
+AU  - Liu, Jiatong
+JO  - Computers in Industry
+VL  - 109
+SP  - 121
+EP  - 133
+PY  - 2019
+DA  - 2019/08/01/
+SN  - 0166-3615
+DO  - https://doi.org/10.1016/j.compind.2019.04.015
+UR  - https://www.sciencedirect.com/science/article/pii/S016636151930106X
+KW  - Semiconductor manufacturing
+KW  - Wafer map
+KW  - Deep learning
+KW  - Convolutional neural network
+KW  - Pattern recognition
+AB  - In semiconductor manufacturing systems, those defects on wafer maps tend to cluster and then these spatial patterns provide important process information for helping operators in finding out root-causes of abnormal processes. Deep learning has achieved many successes in image and visual analysis. This study concentrates on developing a hybrid deep learning model to learn effective discriminative features from wafer maps through a deep network structure. This paper proposes a novel feature learning method, stacked convolutional sparse denoising auto-encoder (SCSDAE) for wafer map pattern recognition (WMPR) in semiconductor manufacturing processes, in which the features will be extracted from images directly. Different from the regular stacked denoising auto-encoder (SDAE) and convolutional neural network (CNN), SCSDAE integrates CNN and SDAE to learn effective features and accumulate the robustness layer by layer, which adopts SDAE as the feature extractor and stacks well-designed fully connected SDAE in a convolutional way to obtain much robust feature representations. The effectiveness of the proposed method has been demonstrated by experimental results from a simulation dataset and real-world wafer map dataset (WM-811K). This study provides the guidance to applications of hybrid deep learning in semiconductor manufacturing processes to improve product quality and yields.
+ER  - 
+
+TY  - JOUR
+T1  - Integration of digital quality control for intelligent manufacturing of industrial ceramic tiles
+AU  - Coskun, Huseyin
+AU  - Yi̇ği̇t, Tuncay
+AU  - Üncü, İsmail Serkan
+JO  - Ceramics International
+VL  - 48
+IS  - 23, Part A
+SP  - 34210
+EP  - 34233
+PY  - 2022
+DA  - 2022/12/01/
+SN  - 0272-8842
+DO  - https://doi.org/10.1016/j.ceramint.2022.05.224
+UR  - https://www.sciencedirect.com/science/article/pii/S027288422201803X
+KW  - Quality control
+KW  - Ceramic tile manufacturing
+KW  - Machine vision
+KW  - Deep learning
+KW  - iso
+AB  - Conventional quality control (QC) is carried out at the end of the manufacturing for surface defect (SD) detection and separating the products as to quality in ceramic tile manufacturing (CTM) manually. Manual inspection may cause misclassify the products as to quality and so SD may not be analyzed in detail. Unfavorable results may have occurred concerning manufacturing costs in such cases. In this study, Gabor, Steerable Digital Filter and Wiener filter methods-based operations were proposed experimentally for plain tiles to determine surface quality (SQ) as to ISO 10545-2 standard. Besides, deep learning-based methods were used for classifying SD. The defect dataset was created with 150 tile images from crack, fleck, pore, scratch, spot defects. The relative error of defects' calculated areas was found as 8.78508E-4. The ability of the detected areas to represent the actual defect area was proved with the defect location and the angle of the defect centroid with the X-axis unlike the studies which evaluate this ability visually in literature. The classification of defects (crack, scratch) was made with an accuracy of 96%. The effect of the data augmentation method on classification success was evaluated. The studies in this article were conducted with Uşak Seramik. Consequently, more cognitive, accurate results than the conventional QC were obtained. A computational and, informative system was presented for integration of the digital QC and SD classification in CTM.
+ER  - 
+
+TY  - JOUR
+T1  - Real-time deep learning method for automated detection and localization of structural defects in manufactured products
+AU  - Avola, Danilo
+AU  - Cascio, Marco
+AU  - Cinque, Luigi
+AU  - Fagioli, Alessio
+AU  - Foresti, Gian Luca
+AU  - Marini, Marco Raoul
+AU  - Rossi, Fabrizio
+JO  - Computers & Industrial Engineering
+VL  - 172
+SP  - 108512
+PY  - 2022
+DA  - 2022/10/01/
+SN  - 0360-8352
+DO  - https://doi.org/10.1016/j.cie.2022.108512
+UR  - https://www.sciencedirect.com/science/article/pii/S0360835222005277
+KW  - Defect detection
+KW  - Region of interest
+KW  - Deep learning
+KW  - Convolutional auto-encoders
+KW  - Industrial inspection
+AB  - In recent years, artificial intelligence has been applied in the industry to automate various vision-based applications, such as monitoring structural defects in manufactured products. For industrial inspections, the automatic detection and localization of defective parts from product images ensure quality while avoiding waste of labor and materials. To this end, this paper introduces a two-branch neural network architecture that comprises detector and localizer components, where the former identifies the presence of defects, while the latter defines the region of interest for each defective area detected in the product structure. In both cases, the underlying strategy lies in a semi-supervised setting observing only defect-free product images, enabling the learning of the correct product structure that can be used to identify every kind of defect independently from position, color, or shape. The effectiveness of the proposed method is evaluated on the MVTec-AD industrial benchmark comprising different object and texture categories, considering the common state-of-the-art AUROC and SSIM metrics for the evaluation of anomaly detection and localization, respectively. Ablation studies varying the number of layers are performed on all the architecture components, founding that the presented two-branch network is consistently robust among all classes achieving remarkable results, i.e., 98% for AUROC and 94% for SSIM. What is more, measuring the time required to detect and localize the defects, the trained network is run on the RPi4B as an embedded system to simulate a practical industrial setting with limited computational resources, demonstrating the applicability of the presented method in real scenarios.
+ER  - 
+
+TY  - JOUR
+T1  - Broken stitch detection method for sewing operation using CNN feature map and image-processing techniques
+AU  - Kim, Hyungjung
+AU  - Jung, Woo-Kyun
+AU  - Park, Young-Chul
+AU  - Lee, Jae-Won
+AU  - Ahn, Sung-Hoon
+JO  - Expert Systems with Applications
+VL  - 188
+SP  - 116014
+PY  - 2022
+DA  - 2022/02/01/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2021.116014
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417421013610
+KW  - Garment industry
+KW  - Sewing defect detection
+KW  - Broken stitch
+KW  - Convolutional neural networks
+KW  - Feature map
+KW  - Image processing
+AB  - The inspection of sewing defects is an essential step in the quality assurance of garment manufacturing. Although traditional automated defect detection applications have shown good performance, these methods are usually configured with handcrafted features designed by a human operator. Recently, deep learning methods that include Convolutional Neural Networks (CNNs) have demonstrated excellent performance in a wide variety of computer-vision applications. To take advantage of the CNN’s feature representation, the direct utilization of feature maps from the convolutional layers as universal feature descriptors has been studied. In this paper, we propose a sewing defect detection method using a CNN feature map extracted from the initial layers of a pre-trained VGG-16 to detect a broken stitch from a captured image of a sewing operation. To assess the effectiveness of the proposed method, experiments were conducted on a set of sewing images, including normal images, their synthetic defects, and rotated images. As a result, the proposed method detected true defects with 92.3% accuracy. Moreover, additional conditions for computing devices and deep learning libraries were investigated to reduce the computing time required for real-time computation. Using a general and cheap single-board computer with resizing the image and utilizing a lightweight deep learning library, the computing time was 0.22 s. The results confirm the feasibility of the proposed method’s performance as an appropriate manufacturing technology for garment production.
+ER  - 
+
+TY  - JOUR
+T1  - Anomaly detection for industrial quality assurance: A comparative evaluation of unsupervised deep learning models
+AU  - Zipfel, Justus
+AU  - Verworner, Felix
+AU  - Fischer, Marco
+AU  - Wieland, Uwe
+AU  - Kraus, Mathias
+AU  - Zschech, Patrick
+JO  - Computers & Industrial Engineering
+VL  - 177
+SP  - 109045
+PY  - 2023
+DA  - 2023/03/01/
+SN  - 0360-8352
+DO  - https://doi.org/10.1016/j.cie.2023.109045
+UR  - https://www.sciencedirect.com/science/article/pii/S0360835223000694
+KW  - Computer vision
+KW  - Quality control
+KW  - Industrial inspection
+KW  - Anomaly detection
+KW  - Deep learning
+KW  - Unsupervised machine learning
+AB  - Across many industries, visual quality assurance has transitioned from a manual, labor-intensive, and error-prone task to a fully automated and precise assessment of industrial quality. This transition has been made possible due to advances in machine learning in general, and supervised learning in particular. However, the majority of supervised learning approaches only allow to identify pre-defined categories, such as certain error types on manufactured objects. New, unseen error types are unlikely to be detected by supervised models. As a remedy, this work studies unsupervised models based on deep neural networks which are not limited to a fixed set of categories but can generally assess the overall quality of objects. More specifically, we use a quality inspection case from a European car manufacturer and assess the detection performance of three unsupervised models (i.e., Skip-GANomaly, PaDiM, PatchCore). Based on an in-depth evaluation study, we demonstrate that reliable results can be achieved with fully unsupervised approaches that are even competitive with those of a supervised counterpart.
+ER  - 
+
+TY  - JOUR
+T1  - A deep learning-based process monitoring system for toothbrush manufacturing defect characterization
+AU  - Bao, Nengsheng
+AU  - Fan, Yuchen
+AU  - Luo, Zhaopeng
+AU  - Li, Chaoping
+AU  - Simeone, Alessandro
+AU  - Zhang, Chunsheng
+JO  - Procedia CIRP
+VL  - 118
+SP  - 1072
+EP  - 1077
+PY  - 2023
+DA  - 2023/01/01/
+T2  - 16th CIRP Conference on Intelligent Computation in Manufacturing Engineering
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2023.06.184
+UR  - https://www.sciencedirect.com/science/article/pii/S2212827123004110
+KW  - Process monitoring
+KW  - Machine-vision
+KW  - Deep-learning
+KW  - Yolov5s
+KW  - Defect detection
+AB  - Toothbrush manufacturing process is prone to a number of defects concerning the bristle stapling, affecting the amount of scrap parts and rework. State-of-the-art inspection techniques are characterized by low efficiency, unsustainable operator fatigue, resulting in a low detection performance with the consequence of an overall final product low quality and safety issue. To enable an automatic process monitoring this paper presents a machine vision-based inspection system endowed with a deep-learning YOLOv5s-based decision-making for toothbrush bristles defects identification and characterization. The proposed system is made of three modules, respectively the image acquisition module, the image processing module and the intelligent defect classification module. A laboratory scale experimental rig was designed in order to carry out trial aimed at validating the proposed monitoring method. The results of testing demonstrated a high classification accuracy capability and high performances in terms computation time, indicating an excellent suitability for industrial applications.
+ER  - 
+
+TY  - JOUR
+T1  - A Machine Vision-based Cyber-Physical Production System for Energy Efficiency and Enhanced Teaching-Learning Using a Learning Factory
+AU  - Kumar, Rishi
+AU  - Patil, Omkar
+AU  - Nath S, Karthik
+AU  - Sangwan, Kuldip Singh
+AU  - Kumar, Rajneesh
+JO  - Procedia CIRP
+VL  - 98
+SP  - 424
+EP  - 429
+PY  - 2021
+DA  - 2021/01/01/
+T2  - The 28th CIRP Conference on Life Cycle Engineering, March 10 – 12, 2021, Jaipur, India
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2021.01.128
+UR  - https://www.sciencedirect.com/science/article/pii/S221282712100158X
+KW  - Machine Vision
+KW  - Cyber-Physical Production System
+KW  - Quality Control
+KW  - Energy
+KW  - Resource efficiency
+AB  - Machine vision (MV) can help in achieving real-time data analysis in a manufacturing environment. This can be implemented in any industry to achieve real-time monitoring of workpieces for geometric defects and material irregularities. Identification of defects, sorting of workpieces based on their physical parameters, and analysis of process abnormalities can be achieved by using the real-time data from simple and cost-effective raspberry pi with camera and open source machine learning platform TensorFlow to run convolutional neural network (CNN) model. The proposed cyber-physical production system enables to develop a MV based system for data acquisition integrating physical entities of learning factory (LF) with the cyber world. Nowadays, LFs are widely used to train the workforce for developing competencies for emerging technologies and challenges faced due to technological advancements in Industry 4.0. This paper demonstrates the application of a cost-effective MV system in a learning factory environment to achieve real-time data acquisition and energy efficiency. The proposed low-cost machine vision is found to detect geometric irregularities, colours and surface defects. The simple cost effective MV system has enhanced the energy efficiency and reduced the total carbon footprint by 18.37 % and 78.83 % depending upon the location of MV system along the flow. The teaching-learning experience is also enhanced through action-based learning strategies. This not only ensures less rework, better control, unbiased decisions, 100% quality assurance but also the need of workers/operators can be reduced.
+ER  - 
+
+TY  - JOUR
+T1  - On enhancing prediction abilities of vision-based metallic surface defect classification through adversarial training
+AU  - Nath, Vikanksh
+AU  - Chattopadhyay, Chiranjoy
+AU  - Desai, K.A.
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 117
+SP  - 105553
+PY  - 2023
+DA  - 2023/01/01/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2022.105553
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197622005437
+KW  - Computer vision
+KW  - Defect detection
+KW  - Steel surface
+KW  - Adversarial training
+KW  - Histogram Equalization
+AB  - Computer vision is augmented in various manufacturing industries to perform automated inspection operations accurately and efficiently. It has been observed that the performance of vision-based inspection approaches degrades considerably upon utilizing images captured under shop-floor conditions. This work proposes utilizing Histogram Equalization and adversarial training through Neural Structure Learning (NSL) for developing a robust vision-based Surface Defect Classification framework. A novel deep neural network architecture obtains adversarial samples in the extracted feature space instead of obtaining the same in the original input image space. The architecture can be easily integrated and employed with various machine learning models. A commonly employed steel surface defect dataset (NEU) with practical relevance to industrial cases is selected for the model training and experimental studies. The robustness of the proposed approach is evaluated over the Extended Diversity Enhanced (ENEU) dataset derived by simulating image acquisition variations similar to shop floor conditions. The results reveal that the proposed approach enhances the recognition accuracy of the baseline method from 87.7% to 92.4% over ENEU. The prediction accuracy of the proposed approach is considerably better than the traditional methods and deep learning competitors over ENEU. The qualitative and quantitative comparison of results obtained using the present approach with methods reported in the literature demonstrates the effectiveness of adversarial training in improving the generalization abilities of machine learning models.
+ER  - 
+
+TY  - JOUR
+T1  - Design of deep convolutional neural network architectures for automated feature extraction in industrial inspection
+AU  - Weimer, Daniel
+AU  - Scholz-Reiter, Bernd
+AU  - Shpitalni, Moshe
+JO  - CIRP Annals
+VL  - 65
+IS  - 1
+SP  - 417
+EP  - 420
+PY  - 2016
+DA  - 2016/01/01/
+SN  - 0007-8506
+DO  - https://doi.org/10.1016/j.cirp.2016.04.072
+UR  - https://www.sciencedirect.com/science/article/pii/S0007850616300725
+KW  - Quality assurance
+KW  - Artificial intelligence
+KW  - Deep machine learning
+AB  - Fast and reliable industrial inspection is a main challenge in manufacturing scenarios. However, the defect detection performance is heavily dependent on manually defined features for defect representation. In this contribution, we investigate a new paradigm from machine learning, namely deep machine learning by examining design configurations of deep Convolutional Neural Networks (CNN) and the impact of different hyper-parameter settings towards the accuracy of defect detection results. In contrast to manually designed image processing solutions, deep CNN automatically generate powerful features by hierarchical learning strategies from massive amounts of training data with a minimum of human interaction or expert process knowledge. An application of the proposed method demonstrates excellent defect detection results with low false alarm rates.
+ER  - 
+
+TY  - JOUR
+T1  - CNN based automatic detection of photovoltaic cell defects in electroluminescence images
+AU  - Akram, M. Waqar
+AU  - Li, Guiqiang
+AU  - Jin, Yi
+AU  - Chen, Xiao
+AU  - Zhu, Changan
+AU  - Zhao, Xudong
+AU  - Khaliq, Abdul
+AU  - Faheem, M.
+AU  - Ahmad, Ashfaq
+JO  - Energy
+VL  - 189
+SP  - 116319
+PY  - 2019
+DA  - 2019/12/15/
+SN  - 0360-5442
+DO  - https://doi.org/10.1016/j.energy.2019.116319
+UR  - https://www.sciencedirect.com/science/article/pii/S0360544219320146
+KW  - photovoltaic (PV) modules
+KW  - Automatic defect detection
+KW  - Electroluminescence
+KW  - Deep learning
+KW  - Convolutional neural network (CNN)
+KW  - PV cell cracking
+AB  - Automatic defect detection is gaining huge importance in photovoltaic (PV) field due to limited application of manual/visual inspection and rising production quantities of PV modules. This study is conducted for automatic detection of PV module defects in electroluminescence (EL) images. We presented a novel approach using light convolutional neural network architecture for recognizing defects in EL images which achieves state of the art results of 93.02% on solar cell dataset of EL images. It requires less computational power and time. It can work on an ordinary CPU computer while maintaining real time speed. It takes only 8.07 ms for predicting one image. For proposing light architecture, we perform extensive experimentation on series of architectures. Moreover, we evaluate data augmentation operations to deal with data scarcity. Overfitting appears a significant problem; thus, we adopt appropriate strategies to generalize model. The impact of each strategy is presented. In addition, cracking patterns and defects that can appear in EL images are reviewed; which will help to label new images appropriately for predicting specific defect types upon availability of large data. The proposed framework is experimentally applied in lab and can help for automatic defect detection in field and industry.
+ER  - 
+
+TY  - JOUR
+T1  - A vision-based fusion method for defect detection of milling cutter spiral cutting edge
+AU  - Zhang, Tongjia
+AU  - Zhang, Chengrui
+AU  - Wang, Yanjie
+AU  - Zou, Xiaofu
+AU  - Hu, Tianliang
+JO  - Measurement
+VL  - 177
+SP  - 109248
+PY  - 2021
+DA  - 2021/06/01/
+SN  - 0263-2241
+DO  - https://doi.org/10.1016/j.measurement.2021.109248
+UR  - https://www.sciencedirect.com/science/article/pii/S026322412100258X
+KW  - Milling cutter
+KW  - Spiral cutting edge
+KW  - Defect detection
+KW  - Deep learning
+KW  - Vision-based
+AB  - Cutting tool is one of the most important parts of machine tool which greatly influences the machining quality. Defect detection of cutting tool spiral cutting edge is usually done by quality control workers after manufactured, which costs time and the quality cannot be guaranteed. In order to detect defects on the spiral cutting edge automatically and reliably within limited cycle time, this paper proposes a vision-based fusion method. This method first uses improved Yolov3-tiny to extract the target cutting edge region, and then traditional image processing method is used to detect and evaluate defects. Compared with only using deep learning, the detection accuracy and evaluation precision of defects are improved. Compared with traditional image processing method, the robustness of illumination is improved. In the case study, the detection result shows that the proposed method can effectively detect and evaluate small defects on the spiral cutting edges illumination insensitively with high detection accuracy.
+ER  - 
+
+TY  - JOUR
+T1  - One class based feature learning approach for defect detection using deep autoencoders
+AU  - Mujeeb, Abdul
+AU  - Dai, Wenting
+AU  - Erdt, Marius
+AU  - Sourin, Alexei
+JO  - Advanced Engineering Informatics
+VL  - 42
+SP  - 100933
+PY  - 2019
+DA  - 2019/10/01/
+SN  - 1474-0346
+DO  - https://doi.org/10.1016/j.aei.2019.100933
+UR  - https://www.sciencedirect.com/science/article/pii/S1474034619301259
+KW  - Automatic Optical Inspection
+KW  - Deep learning
+KW  - Unsupervised learning
+KW  - One Class Classification
+KW  - Autoencoders
+AB  - Detecting defects is an integral part of any manufacturing process. Most works still utilize traditional image processing algorithms to detect defects owing to the complexity and variety of products and manufacturing environments. In this paper, we propose an approach based on deep learning which uses autoencoders for extraction of discriminative features. It can detect different defects without using any defect samples during training. This method, where samples of only one class (i.e. defect-free samples) are available for training, is called One Class Classification (OCC). This OCC method can also be used for training a neural network when only one golden sample is available by generating many copies of the reference image by data augmentation. The trained model is then able to generate a descriptor—a unique feature vector of an input image. A test image captured by an Automatic Optical Inspection (AOI) camera is sent to the trained model to generate a test descriptor, which is compared with a reference descriptor to obtain a similarity score. After comparing the results of this method with a popular traditional similarity matching method SIFT, we find that in the most cases this approach is more effective and more flexible than the traditional image processing-based methods, and it can be used to detect different types of defects with minimum customization.
+ER  - 
+
+TY  - JOUR
+T1  - Implementation and potentials of a machine vision system in a series production using deep learning and low-cost hardware
+AU  - Würschinger, Hubert
+AU  - Mühlbauer, Matthias
+AU  - Winter, Michael
+AU  - Engelbrecht, Michael
+AU  - Hanenkamp, Nico
+JO  - Procedia CIRP
+VL  - 90
+SP  - 611
+EP  - 616
+PY  - 2020
+DA  - 2020/01/01/
+T2  - 27th CIRP Life Cycle Engineering Conference (LCE2020) Advancing Life Cycle Engineering : from technological eco-efficiency to technology that supports a world that meets the development goals and the absolute sustainability
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2020.01.121
+UR  - https://www.sciencedirect.com/science/article/pii/S2212827120302985
+KW  - Machine Vision
+KW  - Manufacturing
+KW  - Series Production
+KW  - Image Classification
+KW  - Transfer Learning
+KW  - Low Cost
+KW  - Data Acquisition
+AB  - For manufacturing processes there is a need to ensure an efficient production and to fulfill the increasing quality requirements. To handle these challenges, Machine Vision Systems can be used for process monitoring and quality control. In this paper the implementation and thereby the potentials of such a system in a series production using Transfer Learning with low cost hardware is introduced. The necessary steps, from the hardware implementation, the data acquisition, the preprocessing over the optimization and the application are depicted. Finally we show that the proposed solution can fulfill defined requirements and can compete with a professional Machine Vision System.
+ER  - 
+
+TY  - JOUR
+T1  - A pixel-level deep segmentation network for automatic defect detection
+AU  - Yang, Lei
+AU  - Xu, Shuai
+AU  - Fan, Junfeng
+AU  - Li, En
+AU  - Liu, Yanhong
+JO  - Expert Systems with Applications
+VL  - 215
+SP  - 119388
+PY  - 2023
+DA  - 2023/04/01/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2022.119388
+UR  - https://www.sciencedirect.com/science/article/pii/S095741742202406X
+KW  - Defect detection
+KW  - Deep convolutional neural network
+KW  - U-shape network
+KW  - ConvLSTM network
+AB  - Defect detection is a very important link for much manufacturing and processing applications which could be used for quality control and precise maintenance decision. However, faced with the weak-texture and low-contrast industrial environment, high-precision defect detection still faces a certain challenge due to diverse and complex of defects. Meanwhile, due to a minimal portion image pixels of defects, the pixel-level defect detection task is always against class-unbalance issue which also will affect the detection performance. Recently, with the strong automatic feature representation ability, deep learning has shown an excellent detection performance on defect identification and location. Nevertheless, it still has some demerits, such as insufficient processing of feature maps, lack of temporal modeling information, etc. To address these issues, on the basis of the encoder–decoder architecture, a pixel-level deep segmentation network is proposed for automatic defect detection to construct an end-to-end defect segmentation model. To realize effective feature representation, a residual attention network is proposed to construct the backbone network, which could also make the segmentation network better emphasize target regions. Meanwhile, to improve the network propagation ability of subtle context features, a bidirectional convolutional long short-term memory (ConvLSTM) block is introduced to optimize the skip connections to learn long-range spatial contexts. Besides, a weighted loss function is proposed for model training to address the class-unbalance issue. Combined with multiple public data sets, through qualitative and quantitative analysis, experimental results demonstrate that the proposed defect segmentation network achieves a better performance compared to other state-of-the-art segmentation methods.
+ER  - 
+
+TY  - JOUR
+T1  - Sheared edge defect segmentation using a convolutional U-Net for quantified quality assessment of fine blanked workpieces
+AU  - Wolfschläger, Dominik
+AU  - Woltersmann, Jan-Henrik
+AU  - Montavon, Benjamin
+AU  - Schmitt, Robert H.
+JO  - Precision Engineering
+VL  - 75
+SP  - 129
+EP  - 141
+PY  - 2022
+DA  - 2022/05/01/
+SN  - 0141-6359
+DO  - https://doi.org/10.1016/j.precisioneng.2022.01.010
+UR  - https://www.sciencedirect.com/science/article/pii/S0141635922000241
+KW  - Fine blanking
+KW  - Deep learning
+KW  - Quality assurance
+KW  - Defect segmentation
+KW  - Machine vision
+AB  - Fine blanking allows for the economic mass production of sheet metal parts of high dimensional accuracy. The smooth cut section at the sheared edge is an important quality characteristic that is, however, reduced by the formation of tearings and fractures in the cut-off zone. At present, the smooth cut section cannot be assessed immediately as no capable methods for a 100% inline quality control of sheared edges for fine blanking exist, causing high scrap rates. To address this deficit this work proposes U-Nets to segment tearings and measure the cut-off height at sheared edges. A systematic model search together with a transfer learning strategy is conducted based on a dataset of 80 images of sheared edges of fine blanked reference workpieces. After a hyperparameter optimization, trained models are able to measure the cut-off height on the test dataset with a mean relative error of 1.1% and a mean absolute error of <1 px corresponding to an average measurement error of 7.5 μm. Besides the natural ability to incorporate additional disturbances in a real-world application, investigations of the reproducibility and the impact of the dataset size indicate that the proposed U-Net model is easy to set up and achieves a comparable average performance of 1.14 ± 0.31 px (17.1 ± 3.7 μm) even for non-optimal model initialization and small training datasets. For this reason, the shown approach is a promising solution for an inline machine vision system.
+ER  - 
+
+TY  - JOUR
+T1  - Quantum Deep Learning for Steel Industry Computer Vision Quality Control.
+AU  - Villalba-Diez, Javier
+AU  - Ordieres-Meré, Joaquín
+AU  - González-Marcos, Ana
+AU  - Larzabal, Aintzane Soto
+JO  - IFAC-PapersOnLine
+VL  - 55
+IS  - 2
+SP  - 337
+EP  - 342
+PY  - 2022
+DA  - 2022/01/01/
+T2  - 14th IFAC Workshop on Intelligent Manufacturing Systems IMS 2022
+SN  - 2405-8963
+DO  - https://doi.org/10.1016/j.ifacol.2022.04.216
+UR  - https://www.sciencedirect.com/science/article/pii/S2405896322002178
+KW  - Steel Descaler
+KW  - Quality of Steel Billet
+KW  - Quantum Deep Learning
+KW  - Quantvolutional Neural Network
+KW  - Deep Learning
+KW  - Quality in Steel Industry
+AB  - The aim of this paper is to explore the potential capabilities of quantum machine learning technology (a branch of quantum computing) when applied to surface quality supervision inside steel manufacturing processes where environmental conditions can affect the quality of images. Comparison with classical deep learning classification schema is performed. The application case, driven by the so-called quantvolutional configuration, shows a large potential of using this technology in this field, mainly because of the speed when using a physical quantum engine.
+ER  - 
+
+TY  - JOUR
+T1  - Multi-source domain adaptation for quality control in retail food packaging
+AU  - Thota, Mamatha
+AU  - Kollias, Stefanos
+AU  - Swainson, Mark
+AU  - Leontidis, Georgios
+JO  - Computers in Industry
+VL  - 123
+SP  - 103293
+PY  - 2020
+DA  - 2020/12/01/
+SN  - 0166-3615
+DO  - https://doi.org/10.1016/j.compind.2020.103293
+UR  - https://www.sciencedirect.com/science/article/pii/S0166361520305273
+KW  - Deep learning
+KW  - Convolutional neural networks
+KW  - Multi-source domain adaptation
+KW  - Optical character verification
+KW  - Retail food packaging
+AB  - Retail food packaging contains information which informs choice and can be vital to consumer health, including product name, ingredients list, nutritional information, allergens, preparation guidelines, pack weight, storage and shelf life information (use-by/best before dates). The presence and accuracy of such information is critical to ensure a detailed understanding of the product and to reduce the potential for health risks. Consequently, erroneous or illegible labeling has the potential to be highly detrimental to consumers and many other stakeholders in the supply chain. In practice, due to the high volume of food packages that go through the supply chain, mistakes do occur therefore good quality of images are needed to verify the correctness of the information. In this paper, a multi-source deep learning-based domain adaptation system is proposed and tested to identify and verify the presence and legibility of use-by date information from food packaging photos taken as part of the validation process as the products pass along the food production line. This was achieved by improving the generalization of the techniques via incorporating new loss functions and making use of multi-source datasets in order to extract domain-invariant representations for all domains and aligning distribution of all pairs of source and target domains in a common feature space, along with the class boundaries. The proposed system performed very well in the conducted experiments, for automating the verification process and reducing labeling errors that could otherwise threaten public health and contravene legal requirements for food packaging information and accuracy. Comprehensive experiments on our food packaging datasets demonstrate that the proposed multi-source deep domain adaptation method significantly improves the classification accuracy and therefore has great potential for application and beneficial impact in food manufacturing control systems.
+ER  - 
+
+TY  - JOUR
+T1  - Automated visual inspection of manufactured parts using deep convolutional neural networks and transfer learning
+AU  - Weiher, Karsten
+AU  - Rieck, Sebastian
+AU  - Pankrath, Hannes
+AU  - Beuss, Florian
+AU  - Geist, Michael
+AU  - Sender, Jan
+AU  - Fluegge, Wilko
+JO  - Procedia CIRP
+VL  - 120
+SP  - 858
+EP  - 863
+PY  - 2023
+DA  - 2023/01/01/
+T2  - 56th CIRP International Conference on Manufacturing Systems 2023
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2023.09.088
+UR  - https://www.sciencedirect.com/science/article/pii/S221282712300820X
+KW  - Deep Learning
+KW  - Transfer Learning
+KW  - Quality Control
+KW  - Human-in-the-Loop (HITL)
+KW  - Machine Learning Operations (MLOps)
+AB  - Most manufacturing processes involve some form of visual quality control of the produced parts. Automated solutions can reduce the required manual work significantly while increasing reliability. However, common obstacles to the construction of smart visual inspection systems are the complexity of the inspected parts, varying types of defects, and small datasets. In this study, we apply state-of-the-art convolutional neural networks to classify infrared images of thermal conductive components manufactured in a real factory setting. Typically, training deep neural architectures requires very large datasets, but this effect is mitigated by using transfer learning. The dataset consists of 6,000 images with 4,200 defect samples and 1,800 intact samples, including different types of flaws and component models. We present a concept for implementing the automated visual inspection system, including dataset preparation, model training, and the inline application. The goal is to establish a Human-in-the-Loop approach, that maximizes accuracy and safety while keeping the required human work at a minimum. A key finding of our research is that dataset preparation and cleaning had a greater impact on the classification accuracy than the optimal choice of the model or training parameters.
+ER  - 
+
+TY  - JOUR
+T1  - One-Shot Recognition of Manufacturing Defects in Steel Surfaces
+AU  - Deshpande, Aditya M.
+AU  - Minai, Ali A.
+AU  - Kumar, Manish
+JO  - Procedia Manufacturing
+VL  - 48
+SP  - 1064
+EP  - 1071
+PY  - 2020
+DA  - 2020/01/01/
+T2  - 48th SME North American Manufacturing Research Conference, NAMRC 48
+SN  - 2351-9789
+DO  - https://doi.org/10.1016/j.promfg.2020.05.146
+UR  - https://www.sciencedirect.com/science/article/pii/S2351978920315985
+KW  - Computer Vision
+KW  - Deep Learning
+KW  - Metallic Surface
+KW  - Convolutional Neural Network
+KW  - Defect Detection
+KW  - One-shot recognition
+KW  - Industrial Internet of Things
+KW  - Cyber-physical systems
+KW  - Siamese neural network
+KW  - Few-shot learning
+AB  - Quality control is an essential process in manufacturing to make the product defect-free as well as to meet customer needs. The automation of this process is important to maintain high quality along with the high manufacturing throughput. With recent developments in deep learning and computer vision technologies, it has become possible to detect various features from the images with near-human accuracy. However, many of these approaches are data intensive. Training and deployment of such a system on manufacturing floors may become expensive and time-consuming. The need for large amounts of training data is one of the limitations of the applicability of these approaches in real-world manufacturing systems. In this work, we propose the application of a Siamese convolutional neural network to do one-shot recognition for such a task. Our results demonstrate how one-shot learning can be used in quality control of steel by identification of defects on the steel surface. This method can significantly reduce the requirements of training data and can also be run in real-time.
+ER  - 
+
+TY  - JOUR
+T1  - A deep region-based pyramid neural network for automatic detection and multi-classification of various surface defects of aluminum alloys
+AU  - Chen, Keyu
+AU  - Zeng, Zhaoyang
+AU  - Yang, Jianfei
+JO  - Journal of Building Engineering
+VL  - 43
+SP  - 102523
+PY  - 2021
+DA  - 2021/11/01/
+SN  - 2352-7102
+DO  - https://doi.org/10.1016/j.jobe.2021.102523
+UR  - https://www.sciencedirect.com/science/article/pii/S2352710221003806
+KW  - Aluminum alloys
+KW  - Defect detection
+KW  - Faster R–CNN
+KW  - Feature pyramid network (FPN)
+KW  - Deformable-ConvNets (DCN)
+KW  - Contextual ROI pooling
+AB  - Aluminum alloys have a wide range of applications in building and civil infrastructure. During the process of production, transportation and storage, various defects inevitably occur on the material, including blisters, scratches, base exposure, dirty points, etc. The efficiency and accuracy of defect detection and classification can be greatly improved by replacing the conventional manual approaches with modern deep learning techniques. This paper proposes to use computer vision and deep learning techniques to achieve automatic detection of various defects of aluminum alloys. Faster region-based convolutional neural network (Faster R–CNN) is selected as the fundamental framework due to its advantages in efficiency and accuracy. According to the characteristics of defects in aluminum alloys, the framework is optimized by (1) feature pyramid networks (FPN) for integration of low-level structural information with high-level semantic information, as well as increasing the feature mapping resolution of small targets; (2) deformable-ConvNets for feature extraction at the most appropriate places; and (3) contextual ROI pooling for fine adjustment of region proposal taking the entire image as a reference. To make full use of the limited samples, the training process is also optimized by (1) utilizing samples without defects; and (2) sample duplication by horizontal and vertical rotation. The proposed approach is validated on a dataset with 10000 images and is shown to have outstanding performance compared to other existing deep learning approaches in defect detection and classification.
+ER  - 
+
+TY  - JOUR
+T1  - Efficient surface defect detection using self-supervised learning strategy and segmentation network
+AU  - Xu, Rongge
+AU  - Hao, Ruiyang
+AU  - Huang, Biqing
+JO  - Advanced Engineering Informatics
+VL  - 52
+SP  - 101566
+PY  - 2022
+DA  - 2022/04/01/
+SN  - 1474-0346
+DO  - https://doi.org/10.1016/j.aei.2022.101566
+UR  - https://www.sciencedirect.com/science/article/pii/S1474034622000386
+KW  - Defect detection
+KW  - Self-supervised learning
+KW  - Image segmentation
+KW  - Quality inspection
+AB  - Surface defect detection plays a crucial role in the production process to ensure product quality. With the development of Industry 4.0 and smart manufacturing, traditional manual defect detection becomes no longer satisfactory, and deep learning-based technologies are gradually applied to surface defect detection tasks. However, the application of deep learning-based defect detection methods in actual production lines is often constrained by insufficient data, expensive annotations, and limited computing resources. Detection methods are expected to require fewer annotations as well as smaller computational consumption. In this paper, we propose the Self-Supervised Efficient Defect Detector (SEDD), a high-efficiency defect defector based on self-supervised learning strategy and image segmentation. The self-supervised learning strategy with homographic enhancement is employed to ensure that defective samples with annotations are no longer needed in our pipeline, while competitive performance can still be achieved. Based on this strategy, a new surface defect simulation dataset generation method is proposed to solve the problem of insufficient training data. Also, a lightweight structure with the attention module is designed to reduce the computation cost without incurring accuracy. Furthermore, a multi-task auxiliary strategy is employed to reduce segmentation errors of edges. The proposed model has been evaluated with three typical datasets and achieves competitive performance compared with other tested methods, with 98.40% AUC and 74.84% AP on average. Experimental results show that our network has the smallest computational consumption and the highest running speed among the networks tested.
+ER  - 

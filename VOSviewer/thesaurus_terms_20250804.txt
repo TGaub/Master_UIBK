@@ -1,0 +1,39 @@
+﻿label	replace by
+ai	artificial Intelligence
+artificial intelligence (ai)	artificial intelligence
+autoencoders	autoencoder
+cnn	convolutional neural network
+convolutional neural networks	convolutional neural network
+convolutional neural networks (cnns)	convolutional neural network
+convolutional neural network (cnn)	convolutional neural network
+deep convolutional neural networks	deep convolutional neural network
+deep learning (dl)	deep learning
+deeplearning	deep learning
+defects detection	defect detection
+detect defection	defect detection
+improved yolov3	yolo
+industrial 4. revolution	industry 4.0
+machine learning (ml)	machine learning
+quality control (qc)	quality control
+support vector machine (svm)	support vector machine
+svm	support vector machine
+vision transformer (vit)	vision transformer
+yolov8	yolo
+yolo training model	yolo
+yolov5	yolo
+yolov5s	yolo
+aas	
+anova	
+bbch	
+convlsm network	
+crackjpu	
+dicom	
+ia	
+machine learning operations (mlops)	
+mlcc	
+mttf	
+ndfeb alloy	
+nir	
+plsr	
+tsdc	
+xrct	
