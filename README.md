@@ -15,8 +15,8 @@
 **Author:** Tamino Gaub   
 **Matriculation Number:** 12314484    
 **University:** [University of Innsbruck (UIBK)](https://www.uibk.ac.at/en/)  
-**Department**: [Infor­ma­tion Sys­tems, Pro­duc­tion and Logis­tics Man­age­ment](https://www.uibk.ac.at/en/wipl/)
-**In Collaboration with:** **In Collaboration with:** [Kemény Boehme Consultants SE](https://kbc-consultants.com/)  
+**Department**: [Infor­ma­tion Sys­tems, Pro­duc­tion and Logis­tics Man­age­ment](https://www.uibk.ac.at/en/wipl/)  
+**In Collaboration with:** [Kemény Boehme Consultants SE](https://kbc-consultants.com/)  
 **Supervisors:** Assoz.-Prof. Mag. Mag. Stefan Haeussler, PhD    
   
 ---  
